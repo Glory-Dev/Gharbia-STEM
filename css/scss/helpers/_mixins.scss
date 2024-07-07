@@ -1,0 +1,168 @@
+// Media
+@mixin media($points) {
+  @if $points == mobile {
+    // Extra small devices (portrait phones, less than 576px)
+    @media (max-width: $mobile) {
+      @content;
+    }
+  } @else if $points == small {
+    // Small devices (landscape phones, 576px and up)
+    @media (min-width: $min-mobile) and (max-width: $max-small) {
+      @content;
+    }
+  } @else if $points == medium {
+    // Medium devices (tablets, 768px and up)
+    @media (min-width: $min-small) and (max-width: $max-medium) {
+      @content;
+    }
+  } @else if $points == desktops {
+    // Large devices (desktops, 992px and up)
+    @media (min-width: $min-medium) and (max-width: $max-desktop) {
+      @content;
+    }
+  } @else if $points == large-desktops {
+    // Extra large devices (large desktops, 1200px and up)
+    @media (min-width: $desktop) {
+      @content;
+    }
+  } @else if $points == min-mobile {
+    @media (min-width: $min-mobile) {
+      @content;
+    }
+  } @else if $points == min-small {
+    @media (min-width: $min-small) {
+      @content;
+    }
+  } @else if $points == max-small {
+    @media (min-width: $max-small) {
+      @content;
+    }
+  } @else if $points == min-medium {
+    @media (min-width: $min-medium) {
+      @content;
+    }
+  } @else if $points == max-medium {
+    @media (min-width: $max-medium) {
+      @content;
+    }
+  } @else if $points == max-desktop {
+    @media (min-width: $max-desktop) {
+      @content;
+    }
+  } @else {
+    @error "Media is unknown";
+  }
+}
+
+// Animation
+@mixin animation(
+  $name,
+  $duration: 0s,
+  $timing-function: ease,
+  $iteration-count: 1,
+  $fill-mode: normal,
+  $delay: 0s
+) {
+  animation: $name $duration $timing-function $iteration-count $fill-mode $delay;
+  // Animation KeyFrames
+  @keyframes #{$name} {
+    @content;
+  }
+}
+
+// Pesudo Elements
+
+// Center
+@mixin center($direction: both, $type: flex) {
+  @if $direction == horizontal {
+    @if $type == "flex" {
+      display: flex;
+      justify-content: center;
+    }
+    @if $type == "position-transform" {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+  @if $direction == vertical {
+    @if $type == "flex" {
+      display: flex;
+      align-items: center;
+    }
+    @if $type == "position-transform" {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+  @if $direction == both {
+    @if $type == "flex" {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    @if $type == "position-transform" {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+}
+
+// Calc
+@mixin calc($property, $expression) {
+  #{$property}: calc(#{$expression});
+}
+
+// Arrow
+@mixin arrow($position: top, $size: 10px, $color: black) {
+  // Revert $position if needed
+  $direction: top !default;
+  @if $position == top {
+    $direction: bottom;
+  } @else if $position == bottom {
+    $direction: top;
+  } @else if $position == left {
+    $direction: right;
+  } @else if $position == right {
+    $direction: left;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    #{$position}: -$size * 2;
+    @if $position == "top" or $position == "bottom" {
+      left: 50%;
+      transform: translateX(-50%);
+    } @else if $position == "left" or $position == "right" {
+      top: 50%;
+      transform: translateY(-50%);
+    }
+    border: $size solid transparent {
+      #{$direction + "-color"}: $color;
+    }
+  }
+}
+
+// Overlay
+@mixin overlay($color, $alpha) {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-color: rgba($color, $alpha);
+}
+
+// Prefixer
+@mixin prefixer($prop, $value, $prefixes: ()) {
+  @each $prefixe in $prefixes {
+    #{"-" + $prefixe + "-" + $prop}: $value;
+  }
+  #{$prop}: $value;
+}

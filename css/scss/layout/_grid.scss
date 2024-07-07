@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  position: relative;
+  padding: {
+    left: 15px;
+    right: 15px;
+  }
+  margin: {
+    left: auto;
+    right: auto;
+  }
+  @include media(medium) {
+    width: 750px;
+  }
+  @include media(desktops) {
+    width: 970px;
+  }
+  @include media(large-desktops) {
+    width: 1170px;
+  }
+}

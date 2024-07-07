@@ -1,0 +1,28 @@
+// Some Roles
+html {
+  scroll-behavior: smooth;
+
+  * {
+    outline: none;
+  }
+  body {
+    font-family: $Poppins;
+  }
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  img {
+    width: 100%;
+    height: 100%;
+  }
+  button {
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+  }

@@ -1,0 +1,9 @@
+// Colors
+:root {
+  --main-bg: white;
+  --main-color: black;
+}
+html[dark="true"] {
+  --main-bg: black;
+  --main-color: white;
+}

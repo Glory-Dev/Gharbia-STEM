@@ -1,0 +1,22 @@
+// Helpers
+@import "sass/helpers/variables";
+@import "sass/helpers/mixins";
+@import "sass/helpers/functions";
+@import "sass/helpers/theme";
+@import "sass/helpers/rtl";
+// Components
+@import "sass/components/components";
+@import "sass/components/section-header";
+// Layout
+@import "sass/layout/global-rules";
+@import "sass/layout/grid";
+body > {
+  // Layout
+  @import "sass/layout/header";
+  @import "sass/layout/footer";
+  // Pages
+  @import "sass/pages/landing";
+  @import "sass/pages/skills";
+  @import "sass/pages/projects";
+  @import "sass/pages/about-me";
+}

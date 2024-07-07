@@ -1,0 +1,8 @@
+html[lang="ar"] {
+  * {
+    flex-direction: row-reverse;
+  }
+  body {
+    font-family: $Cairo;
+  }
+}
