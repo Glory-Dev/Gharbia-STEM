@@ -1,4 +1,6 @@
-// Some Roles
+* {
+  box-sizing: border-box;
+}
 html {
   scroll-behavior: smooth;
 
@@ -17,10 +19,10 @@ html {
     padding: 0;
     list-style: none;
   }
-  img {
-    width: 100%;
-    height: 100%;
-  }
+  // img {
+  //   width: 100%;
+  //   height: 100%;
+  // }
   button {
     border: none;
     cursor: pointer;

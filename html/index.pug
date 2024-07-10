@@ -1,0 +1,30 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title Home
+    //- Styles
+    link(rel="stylesheet", href="css/bootstrap.min.css")
+    link(rel="stylesheet", href="css/all.min.css")
+    link(rel="stylesheet", href="css/main.css")
+  body
+    main.welcome(class="position-relative d-flex flex-column justify-content-center p-5 text-white")
+      .holder
+        section.info(class="d-flex align-items-center")
+          .logo
+            img(src="images/logo.png", alt="Logo" style="width: 100px")
+          .content(class="fst-italic")
+            h1(class="fw-bold m-0") Gharbiya STEM School 
+            h2 Tanta, Egypt
+        .more(class="text-center mt-3 fw-bold")
+          a(href="#landing" class="text-decoration-underline") Read More<i class="fa-solid fa-angles-down ps-2"></i>
+    nav(class="navbar sticky-top bg-dark")
+      .container-fluid
+        a(class="navbar-brand" href="#")
+          img(src="images/logo.png" alt="Logo" style="width: 50px" class="d-inline-block align-text-top")
+
+    //- JS
+    script(src="http://localhost:35729/livereload.js")
+    script(src="js/bootstrap.bundle.js")
+    script(src="js/all.min.js")

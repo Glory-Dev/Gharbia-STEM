@@ -46,7 +46,7 @@ gulp.task("js", function () {
 gulp.task("watch", function () {
   require("./server.js");
   livereload.listen();
-  gulp.watch("./html/**/*.pug", gulp.series(["html"]));
+  // gulp.watch("./html/**/*.pug", gulp.series(["html"]));
   gulp.watch(["./css/**/*.css", "./css/**/*.scss"], gulp.series(["css"]));
   gulp.watch("./js/*.js", gulp.series(["js"]));
 });

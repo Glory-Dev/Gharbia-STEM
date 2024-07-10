@@ -11,15 +11,6 @@ $max-medium: "991.98px";
 $desktop: "1200px";
 $max-desktop: "1199.98px";
 
-// Z-Index
-$zindex-dropdown: 1000 !default;
-$zindex-sticky: 1020 !default;
-$zindex-fixed: 1030 !default;
-$zindex-modal-backdrop: 1040 !default;
-$zindex-modal: 1050 !default;
-$zindex-popover: 1060 !default;
-$zindex-tooltip: 1070 !default;
-
 // Fonts
 $Poppins: "Poppins", sans-serif;
 $Cairo: "Cairo", sans-serif;
@@ -28,26 +19,16 @@ $Major: "Major Mono Display", monospace;
 
 // Colors
 
-// Materials
-$mats-colors-red: #f44336;
-$mats-colors-pink: #e91e63;
-$mats-colors-purple: #9c27b0;
-$mats-colors-dark-purple: #673ab7;
-$mats-colors-light-purple: #3f51b5;
-$mats-colors-dark-blue: #2196f3;
-$mats-colors-blue: #03a9f4;
-$mats-colors-light-blue: #00bcd4;
-$mats-colors-darl-green: #009688;
-$mats-colors-green: #4caf50;
-$mats-colors-light-green: #8bc34a;
-$mats-colors-green-fes: #cddc39;
-$mats-colors-yellow: #ffeb3b;
-$mats-colors-dark-yellow: #ffc107;
-$mats-colors-orange: #ff9800;
-$mats-colors-dark-orange: #ff5722;
-$mats-colors-brown: #795548;
-$mats-colors-gray: #9e9e9e;
-$mats-colors-idk: #607d8b;
+// Theme
+// :root {
+//   --main-bg: white;
+//   --main-color: black;
+// }
+// html[dark="true"] {
+//   --main-bg: black;
+//   --main-color: white;
+// }
+
 
 // Social
 $github: black;
