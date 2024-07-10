@@ -7,11 +7,11 @@
 @import "./sass/layout/global-rules";
 
 body > {
+  @import "./sass/pages/home";
   // Layout
-  @import "./sass/layout/header";
+  @import "./sass/layout/navbar";
   @import "./sass/layout/footer";
   // Pages
-  @import "./sass/pages/home";
 }
 body {
   height: 10000px;

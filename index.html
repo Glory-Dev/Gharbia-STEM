@@ -10,15 +10,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
     <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/libs/aos.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/libs/font-awesome.min.css" />
     <link rel="stylesheet" href="css/main.css" />
     <link rel="icon" type="image/x-icon" href="./images/logo.png" />
     <!-- Fonts -->
   </head>
   <body>
+    <!-- START Welcome -->
     <main class="welcome position-relative d-flex flex-column justify-content-center p-5 text-white">
-      <div class="holder">
+      <div class="holder" data-aos="fade-up" data-aos-offset="0" data-aos-duration="1000" data-aos-easing="ease-out">
         <section class="info text-center text-md-start d-md-flex align-items-center">
           <div class="logo"><img src="images/logo.png" alt="Logo" /></div>
           <div class="content fst-italic">
@@ -34,11 +36,107 @@
         </div>
       </div>
     </main>
+    <!-- END Welcome -->
 
+    <!-- START Navbar -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid px-5 justify-content-between">
+        <a class="navbar-brand text-white fs-3 ft-bold fst-italic" href="./"><img class="d-inline-block align-text-center" src="images/logo.png" alt="Logo" style="width: 50px" /> Gharbiya STEM</a>
+        <button class="menu-icon" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span></span><span></span><span></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end" style="flex-grow: 0" id="navbarNavDarkDropdown">
+          <ul class="navbar-nav text-white">
+            <li class="nav-item px-3">
+              <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item px-3">
+              <a class="nav-link" href="#">Alumni</a>
+            </li>
+            <li class="nav-item px-3">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+            <li class="nav-item px-3">
+              <section class="mega-menu p-5 active text-secondary">
+                <div class="container-fluid">
+                  <div class="row justify-content-center">
+                    <ul class="d-md-none">
+                      <li class="nav-item px-3">
+                        <a class="nav-link active" href="#">Home</a>
+                      </li>
+                      <li class="nav-item px-3">
+                        <a class="nav-link" href="#">Alumni</a>
+                      </li>
+                      <li class="nav-item px-3">
+                        <a class="nav-link" href="#">Contact</a>
+                      </li>
+                    </ul>
+                    <ul class="col-md-6 col-lg-3 col-xl-2">
+                      <h5 class="text-white mb-4 text-decoration-underline"><a href="./about.html">About</a></h5>
+                      <li><a href="./about.html">STEM Education</a></li>
+                      <li><a href="./about.html">Overview</a></li>
+                      <li><a href="./about.html">Mission & Vision</a></li>
+                      <li><a href="./pages/about/faculty.html">Faculty &Staff</a></li>
+                      <li><a href="./pages/about/facilities.html">Facilities</a></li>
+                      <li><a href="./pages/about/dorm.html">Dormitory</a></li>
+                    </ul>
+                    <ul class="col-md-6 col-lg-3 col-xl-2">
+                      <h5 class="text-white mb-4 text-decoration-underline"><a href="./academics.html">Academics</a></h5>
+                      <li><a href="./academics.html">Academic Subjects</a></li>
+                      <li><a href="./academics.html">Capstone Projects</a></li>
+                      <li><a href="./academics.html">Grade Distribution</a></li>
+                      <li><a href="./pages/academics/materials.html">Academic Materials</a></li>
+                    </ul>
+                    <ul class="col-md-6 col-lg-3 col-xl-2">
+                      <h5 class="text-white mb-4 text-decoration-underline"><a href="./extracurriculars.html">Extracurriculars</a></h5>
+                      <li><a href="./pages/extracurriculars/clubs-teams.html">Clubs & Teams</a></li>
+                      <li><a href="./pages/extracurriculars/summer-programs.html">Summer Programs</a></li>
+                      <li><a href="./pages/extracurriculars/awards-honors.html">Awards & Honrs</a></li>
+                      <li class="lh-lg"><a href="./pages/extracurriculars/learning-entertainment.html">Learning Entertainment</a></li>
+                    </ul>
+                    <ul class="col-md-6 col-lg-3 col-xl-2">
+                      <h5 class="text-white mb-4 text-decoration-underline"><a href="./admission.html">Admission</a></h5>
+                      <li><a href="./admission.html">Admission Process</a></li>
+                      <li><a href="./admission.html">FAQs</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </section>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- END Navbar -->
 
     <!-- Script -->
     <script src="http://localhost:35729/livereload.js"></script>
+    <script src="js/libs/aos.js"></script>
+    <script>
+      AOS.init();
+      AOS.init({
+        // Global settings:
+        disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+        startEvent: "DOMContentLoaded", // name of the event dispatched on the document, that AOS should initialize on
+        initClassName: "aos-init", // class applied after initialization
+        animatedClassName: "aos-animate", // class applied on animation
+        useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+        disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+        debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+        throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+
+        // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+        offset: 120, // offset (in px) from the original trigger point
+        delay: 0, // values from 0 to 3000, with step 50ms
+        duration: 400, // values from 0 to 3000, with step 50ms
+        easing: "ease", // default easing for AOS animations
+        once: false, // whether animation should happen only once - while scrolling down
+        mirror: false, // whether elements should animate out while scrolling past them
+        anchorPlacement: "top-bottom", // defines which position of the element regarding to window should trigger the animation
+      });
+    </script>
     <script src="js/bootstrap.bundle.js"></script>
-    <script src="js/all.min.js"></script>
+    <script src="js/libs/font-awesome.min.js"></script>
   </body>
 </html>
