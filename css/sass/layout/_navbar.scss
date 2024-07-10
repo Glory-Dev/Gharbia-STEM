@@ -1,5 +1,6 @@
 .navbar {
   background-color: #0d191c;
+  box-shadow: 0 0 20px 0 #040809;
 
   .menu-icon {
     position: relative;
@@ -68,13 +69,20 @@
       position: absolute;
       left: 0;
       background-color: #0d191c;
-      box-shadow: inset 0 0 20px 0 black;
+      box-shadow: inset 0 0 20px 0 #040809;
       /* Animation */
       top: calc(100% + 30px);
       z-index: -1;
       opacity: 0;
       visibility: hidden;
       transition: $duration;
+
+      .row > * {
+        @include media(mobile) {
+          width: fit-content;
+        }
+      }
+
       ul {
         li {
           width: fit-content;
