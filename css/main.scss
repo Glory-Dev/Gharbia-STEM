@@ -3,6 +3,7 @@
 @import "./sass/helpers/mixins";
 @import "./sass/helpers/functions";
 // Components
+@import "./sass/components/heading-text";
 // Layout
 @import "./sass/layout/global-rules";
 
@@ -12,7 +13,4 @@ body > {
   @import "./sass/layout/navbar";
   @import "./sass/layout/footer";
   // Pages
-}
-body {
-  height: 10000px;
 }

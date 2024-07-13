@@ -19,12 +19,12 @@
   </head>
   <body>
     <!-- START Welcome -->
-    <main class="welcome position-relative d-flex flex-column justify-content-center p-5 text-white">
+    <main class="welcome position-relative d-flex flex-column justify-content-center align-items-center align-items-md-start p-5 text-white">
       <div class="holder" data-aos="fade-up" data-aos-offset="0" data-aos-duration="1000" data-aos-easing="ease-out">
         <section class="info text-center text-md-start d-md-flex align-items-center">
-          <div class="logo"><img src="images/logo.png" alt="Logo" /></div>
+          <div class="logo me-0 me-md-3"><img src="images/logo.png" alt="Logo" /></div>
           <div class="content fst-italic">
-            <h1 class="fw-bold m-3 m-md-0">Gharbiya STEM High School</h1>
+            <h1 class="fst-1 fw-bold m-3 m-md-0">Gharbiya STEM High School</h1>
             <h2>Tanta, Egypt</h2>
           </div>
         </section>
@@ -46,15 +46,15 @@
           <span></span><span></span><span></span>
         </button>
         <div class="collapse navbar-collapse" style="flex-grow: 0" id="navbarNavDarkDropdown">
-          <ul class="main-links text-white flex-row">
+          <ul class="main-links text-white d-flex flex-row">
             <li class="nav-item px-3">
-              <a class="nav-link active" href="#">Home</a>
+              <a class="nav-link active" href="./">Home</a>
             </li>
             <li class="nav-item px-3">
-              <a class="nav-link" href="#">Alumni</a>
+              <a class="nav-link" href="./alumni.html">Alumni</a>
             </li>
             <li class="nav-item px-3">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="./contact.html">Contact</a>
             </li>
           </ul>
           <ul class="navbar-nav text-white">
@@ -108,17 +108,73 @@
     </nav>
     <!-- END Navbar -->
 
-    <!-- START Header -->
+    <section class="homepage-content">
+      <!-- START Header -->
+      <header class="header">
+        <div class="container">
+          <section class="text">
+            <q class="main-quote stroke">Our students are vigorous researchers, profound critical thinkers and global problem-solvers.</q>
+            <h2 class="main-heading">Discover Gharbiya STEM School</h2>
+          </section>
+        </div>
+      </header>
+      <!-- END Header -->
 
-    <!-- END Header -->
+      <!-- START Site Sections -->
+      <section class="site-sections">
+        <div class="container-fluid">
+          <div class="row">
+            <a href="./about.html" class="col-md-6 col-xxl-4" data-heading="About">
+              <div class="image"></div>
+              <div class="heading">
+                <h3 class="fw-semibold fs-2 mb-3">About</h3>
+                <p class="fs-4">More information about the school</p>
+              </div>
+            </a>
+            <a href="./academics.html" class="col-md-6 col-xxl-4" data-heading="About">
+              <div class="image"></div>
+              <div class="heading">
+                <h3 class="fw-semibold fs-2 mb-3">Academics</h3>
+                <p class="fs-4">STEM Education and Curriculum</p>
+              </div>
+            </a>
+            <a href="./extracurriculars.html" class="col-md-6 col-xxl-4" data-heading="About">
+              <div class="image"></div>
+              <div class="heading">
+                <h3 class="fw-semibold fs-2 mb-3">Extra-<br />curriculars</h3>
+                <p class="fs-4">Activities and Clubs of the School</p>
+              </div>
+            </a>
+            <a href="./admission.html" class="col-md-6 col-xxl-4" data-heading="About">
+              <div class="image"></div>
+              <div class="heading">
+                <h3 class="fw-semibold fs-2 mb-3">Admission</h3>
+                <p class="fs-4">Becoming a STEM Student!</p>
+              </div>
+            </a>
+            <a href="./alumni.html" class="col-md-6 col-xxl-4" data-heading="About">
+              <div class="image"></div>
+              <div class="heading">
+                <h3 class="fw-semibold fs-2 mb-3">Alumni</h3>
+                <p class="fs-4">Previous students of the School</p>
+              </div>
+            </a>
+            <a href="./contact.html" class="col-md-6 col-xxl-4" data-heading="About">
+              <div class="image"></div>
+              <div class="heading">
+                <h3 class="fw-semibold fs-2 mb-3">Contact</h3>
+                <p class="fs-4">Reach out to the School</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+      <!-- END Site Seions -->
 
-    <!-- START Site Sections -->
+      <!-- START Stats -->
 
-    <!-- END Site Seions -->
-
-    <!-- START Stats -->
-
-    <!-- END Stats -->
+      <!-- END Stats -->
+    </section>
 
     <!-- Script -->
     <script src="http://localhost:35729/livereload.js"></script>

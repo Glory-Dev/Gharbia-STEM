@@ -49,23 +49,73 @@
     @media (min-width: $max-desktop) {
       @content;
     }
+  } @else if $points == min-extra-large-desktops {
+    @media (min-width: $large-desktop) {
+      @content;
+    }
   } @else {
     @error "Media is unknown";
   }
 }
 
 // Animation
-@mixin animation(
-  $name,
-  $duration: 0s,
-  $timing-function: ease,
-  $iteration-count: 1,
-  $fill-mode: normal,
-  $delay: 0s
-) {
+@mixin animation($name, $duration: 0s, $timing-function: ease, $iteration-count: 1, $fill-mode: normal, $delay: 0s) {
   animation: $name $duration $timing-function $iteration-count $fill-mode $delay;
   // Animation KeyFrames
   @keyframes #{$name} {
+    @content;
+  }
+}
+
+// Calc
+@mixin calc($property, $expression) {
+  #{$property}: calc(#{$expression});
+}
+
+// Arrow
+@mixin arrow($position: top, $size: 10px, $color: black) {
+  // Revert $position if needed
+  $direction: top !default;
+  @if $position == top {
+    $direction: bottom;
+  } @else if $position == bottom {
+    $direction: top;
+  } @else if $position == left {
+    $direction: right;
+  } @else if $position == right {
+    $direction: left;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    #{$position}: -$size * 2;
+    @if $position == "top" or $position == "bottom" {
+      left: 50%;
+      transform: translateX(-50%);
+    } @else if $position == "left" or $position == "right" {
+      top: 50%;
+      transform: translateY(-50%);
+    }
+    border: $size solid transparent {
+      #{$direction + "-color"}: $color;
+    }
+  }
+}
+
+// Overlay
+@mixin overlay($color, $alpha) {
+  position: relative;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba($color, $alpha);
+
     @content;
   }
 }

@@ -7,24 +7,15 @@
     image: url("../images/landing.jpg");
   }
 
-  &::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(black, 0.7);
+  @include overlay(black, 0.7) {
     background-image: linear-gradient(to right, rgba(black, 0.5), transparent);
   }
+
   .holder {
     z-index: 100;
     width: fit-content;
 
     .logo img {
-      @include media(min-small) {
-        width: 100px;
-      }
     }
 
     > .more svg {
@@ -33,6 +24,93 @@
       display: flex;
       align-items: center;
       justify-content: center;
+    }
+  }
+}
+
+.homepage-content {
+  background-color: #040809;
+  background-image: linear-gradient(45deg, #040809, #0d191c);
+
+  .header {
+    .main-quote {
+      padding-bottom: 10px;
+      position: relative;
+      margin-bottom: 3rem;
+
+      &::before,
+      &::after {
+        content: "";
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+      &::before {
+        bottom: -39px;
+        width: 1px;
+        height: 30px;
+        background-color: white;
+      }
+      &::after {
+        bottom: -20px;
+        border: 10px solid transparent;
+        border-top-color: white;
+      }
+    }
+  }
+
+  .site-sections {
+    .row > * {
+      padding: 0;
+      height: 300px;
+      overflow: hidden;
+      gap: 20px;
+      display: flex;
+      align-items: center;
+
+      &:nth-of-type(n) {
+        background-color: #22454e;
+      }
+      &:nth-of-type(2n) {
+        background-color: #0d191c;
+      }
+      @media (min-width: $max-small) and (max-width: $max-large-desktop) {
+        &:nth-of-type(4n-3),
+        &:nth-of-type(4n),
+        &:nth-of-type(4n + 1) {
+          background-color: #22454e;
+        }
+        &:nth-of-type(4n-2),
+        &:nth-of-type(4n-1) {
+          background-color: #0d191c;
+        }
+      }
+    }
+    .image {
+      width: 150px;
+      height: 300px;
+      border-radius: 0% 100% 100% 0% / 50% 50% 50% 50%;
+      overflow: hidden;
+      background: {
+        position: center;
+        size: cover;
+      }
+      @include overlay(black, 0.5);
+    }
+    .heading {
+      h3 {
+        position: relative;
+
+        &::after {
+          content: "";
+          position: absolute;
+          left: 0;
+          bottom: -5px;
+          width: 75px;
+          height: 1px;
+          background-color: wheat;
+        }
+      }
     }
   }
 }
