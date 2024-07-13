@@ -84,6 +84,41 @@
           background-color: #0d191c;
         }
       }
+
+      // Words
+      position: relative;
+      &::after {
+        content: attr(data-heading);
+        position: absolute;
+        right: 0;
+        font-size: calc(2rem + 0.5vw);
+        font-weight: 900;
+        text-align: center;
+        text-transform: uppercase;
+        color: rgba(255, 255, 255, 0.1);
+        // Effect
+        transform: rotate(180deg);
+        writing-mode: vertical-lr;
+        line-height: 0.8;
+      }
+      &[data-heading*="About"]::after {
+        font-size: 74px;
+      }
+      &[data-heading*="Academics"]::after {
+        font-size: 45px;
+      }
+      &[data-heading*="Extra"]::after {
+        font-size: 37px;
+      }
+      &[data-heading*="Admission"]::after {
+        font-size: 47px;
+      }
+      &[data-heading*="Alumni"]::after {
+        font-size: 69px;
+      }
+      &[data-heading*="Contact"]::after {
+        font-size: 56px;
+      }
     }
     .image {
       width: 150px;
