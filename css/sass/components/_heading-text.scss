@@ -1,0 +1,27 @@
+.text {
+  padding: 3rem 0;
+  text-align: center;
+
+  .main-quote {
+    display: block;
+    font-size: 1.5rem;
+    text-wrap: balance;
+
+    font: {
+      style: italic;
+    }
+
+    &.stroke {
+      border-bottom: 1px solid white;
+    }
+  }
+  .main-heading {
+    font: {
+      size: 3rem;
+      weight: 100;
+    }
+
+    &.stroke {
+    }
+  }
+}
