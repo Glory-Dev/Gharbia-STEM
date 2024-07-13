@@ -6,7 +6,7 @@
 @import "./sass/components/heading-text";
 // Layout
 @import "./sass/layout/global-rules";
-
+$enable-cssgrid: true;
 body > {
   @import "./sass/pages/home";
   // Layout

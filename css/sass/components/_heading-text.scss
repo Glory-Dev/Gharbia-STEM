@@ -25,3 +25,23 @@
     }
   }
 }
+
+.middle-line {
+  display: flex;
+
+  $gap-around-heading: 20px;
+
+  &:before,
+  &:after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid white;
+    margin: auto;
+  }
+  &:before {
+    margin-right: 20px;
+  }
+  &:after {
+    margin-left: 20px;
+  }
+}
