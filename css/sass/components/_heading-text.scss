@@ -4,20 +4,19 @@
 
   .main-quote {
     display: block;
-    font-size: 1.5rem;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 50px;
+    padding-right: 50px;
     text-wrap: balance;
-
-    font: {
-      style: italic;
-    }
-
+    font-style: italic;
     &.stroke {
       border-bottom: 1px solid white;
     }
   }
   .main-heading {
     font: {
-      size: 3rem;
       weight: 100;
     }
 
