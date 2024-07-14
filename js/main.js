@@ -3,7 +3,7 @@ const preloader = document.querySelector("body > .preloader");
 
 window.onload = function () {
   preloader.classList.add("loaded");
-}
+};
 
 // Stats Increasing Number animation
 const stats = document.querySelector(".homepage-content .stats");
@@ -25,3 +25,9 @@ function counterAnimation(element) {
     element.textContent !== goal ? element.textContent++ : clearInterval(counter);
   }, 300 / goal);
 }
+
+// Footer Date
+const date = new Date();
+const footerDate = document.querySelector("footer .bottom-footer > .date");
+
+footerDate.textContent = date.getFullYear();

@@ -1,0 +1,43 @@
+.footer {
+  background-color: #040809;
+
+  .footer-contact {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+
+    > div {
+      flex: 1 calc(50% - 15px);
+    }
+  }
+  .footer-social {
+
+    li {
+      &:hover a {
+        background-color: #fff;
+
+        svg[class*="facebook"] {
+          color: #0d8af0;
+        }
+        svg[class*="instagram"] {
+          color: #5865f2;
+        }
+        svg[class*="youtube"] {
+          color: #f00;
+        }
+      }
+      a {
+        display: block;
+        padding: 10px;
+        border-radius: 15px;
+        transition: background-color 0.3s;
+        background-color: rgba(255, 255, 255, 80%);
+
+        svg {
+          color: #222;
+          transition: color 0.3s;
+        }
+      }
+    }
+  }
+}
