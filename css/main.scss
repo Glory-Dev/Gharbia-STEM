@@ -8,9 +8,10 @@
 @import "./sass/layout/global-rules";
 $enable-cssgrid: true;
 body > {
-  @import "./sass/pages/home";
   // Layout
+  @import "./sass/layout/loading";
   @import "./sass/layout/navbar";
   @import "./sass/layout/footer";
   // Pages
+  @import "./sass/pages/home";
 }

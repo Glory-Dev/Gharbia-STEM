@@ -1,3 +1,11 @@
+// Preloader
+const preloader = document.querySelector("body > .preloader");
+
+window.onload = function () {
+  preloader.classList.add("loaded");
+}
+
+// Stats Increasing Number animation
 const stats = document.querySelector(".homepage-content .stats");
 const statsElements = document.querySelectorAll(".homepage-content .stats .counter-animation");
 let started = false;
