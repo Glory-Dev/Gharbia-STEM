@@ -1,4 +1,4 @@
 # Node Modules for Git
 node_modules
 # Images folder until being compressed
-dist/images
+test images
