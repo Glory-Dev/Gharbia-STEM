@@ -29,9 +29,6 @@
 }
 
 .homepage-content {
-  background-color: #040809;
-  background-image: linear-gradient(45deg, #040809, #0d191c);
-
   .header {
     .main-quote {
       position: relative;
@@ -144,25 +141,6 @@
           height: 1px;
           background-color: wheat;
         }
-      }
-    }
-  }
-
-  .stats {
-    h3 {
-      padding-left: 6rem;
-      padding-right: 6rem;
-
-      > p:first-child {
-        font-size: 3rem;
-        margin-bottom: 5px !important;
-        &::after {
-          content: "+";
-          font-size: 0.75em;
-        }
-      }
-      > p:last-child {
-        font-size: 1.25rem;
       }
     }
   }

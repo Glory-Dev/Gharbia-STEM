@@ -13,7 +13,6 @@ $max-desktop: "1199.98px";
 $large-desktop: "1400px";
 $max-large-desktop: "1399.98px";
 
-
 // Fonts
 $Poppins: "Poppins", sans-serif;
 $Cairo: "Cairo", sans-serif;
@@ -32,11 +31,23 @@ $Major: "Major Mono Display", monospace;
 //   --main-color: white;
 // }
 
-
 // Social
 $github: black;
 $youtube: #f20000;
 $discord: #6c82cf;
 $twitter: #28a0d5;
 $facebook: #1771e6;
-$linkedIn: #0077b5;
+$linkedin: #0077b5;
+$instagram: #5865f2;
+
+// Main Background
+.primary-gradient-bg {
+  background-color: #040809;
+  background-image: linear-gradient(45deg, #040809, #0d191c);
+}
+.primary-bg {
+  background-color: #0d191c;
+}
+.secondary-bg {
+  background-color: #22454e;
+}

@@ -4,13 +4,20 @@
 @import "./sass/helpers/functions";
 // Components
 @import "./sass/components/heading-text";
+@import "./sass/components/sub-section";
 // Layout
 @import "./sass/layout/global-rules";
-body > {
+body {
   // Layout
   @import "./sass/layout/loading";
   @import "./sass/layout/navbar";
   @import "./sass/layout/footer";
   // Pages
   @import "./sass/pages/home";
+  @import "./sass/pages/about";
+}
+
+// For Bootstrap
+.w-fit-content {
+  width: fit-content !important;
 }
