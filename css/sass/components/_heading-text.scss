@@ -11,6 +11,8 @@
     padding-right: 50px;
     text-wrap: balance;
     font-style: italic;
+    font-family: $body-secondary-font;
+
     &.stroke {
       border-bottom: 1px solid white;
     }
@@ -21,6 +23,23 @@
     }
 
     &.stroke {
+      width: fit-content;
+      padding: 0.5rem 3rem;
+      margin: 0 auto 3rem;
+      position: relative;
+      text-transform: capitalize;
+      border-bottom: 1px solid white;
+
+      &::after {
+        content: "";
+        position: absolute;
+        bottom: -75px;
+        left: 50%;
+        width: 1px;
+        height: 75px;
+        background-color: white;
+        transform: translateX(-50%);
+      }
     }
   }
 }

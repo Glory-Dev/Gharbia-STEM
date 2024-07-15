@@ -14,12 +14,23 @@ $large-desktop: "1400px";
 $max-large-desktop: "1399.98px";
 
 // Fonts
-$Poppins: "Poppins", sans-serif;
-$Cairo: "Cairo", sans-serif;
-$Gugi: "Gugi", cursive;
-$Major: "Major Mono Display", monospace;
+$body-primary-font: "Inter", sans-serif;
+$body-secondary-font: "Averia Serif Libre", serif;
+// Weights
+$fw-thin: 100;
+$fw-extra-light: 200;
+$fw-light: 300;
+$fw-normal: 400;
+$fw-medium: 500;
+$fw-semi-bold: 600;
+$fw-bold: 700;
+$fw-extra-bold: 800;
+$fw-black: 900;
 
 // Colors
+$dark-blue: hsl(192, 36, 8); // Header, Sections, Cards, Gradients
+$light-blue: hsl(192, 39, 22); // Sections, Cards, Gradients
+$dark-off-black: hsl(192, 38, 3); // Footer
 
 // Theme
 // :root {
@@ -39,15 +50,3 @@ $twitter: #28a0d5;
 $facebook: #1771e6;
 $linkedin: #0077b5;
 $instagram: #5865f2;
-
-// Main Background
-.primary-gradient-bg {
-  background-color: #040809;
-  background-image: linear-gradient(45deg, #040809, #0d191c);
-}
-.primary-bg {
-  background-color: #0d191c;
-}
-.secondary-bg {
-  background-color: #22454e;
-}

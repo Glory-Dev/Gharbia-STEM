@@ -1,6 +1,22 @@
 .about-main-content {
+  .overview {
+    ul {
+      list-style: disc;
+      width: fit-content;
+      margin: 20px auto 0;
+      font-family: $body-secondary-font;
+      @media (min-width: 767.98px) {
+        font-size: 1.5rem;
+      }
 
-  
+      li {
+        &:not(:last-of-type) {
+          padding-bottom: 1rem;
+        }
+      }
+    }
+  }
+
   .stats {
     h3 {
       padding-left: 6rem;

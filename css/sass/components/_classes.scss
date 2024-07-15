@@ -1,0 +1,17 @@
+
+// For Bootstrap
+.w-fit-content {
+  width: fit-content !important;
+}
+
+// Main Background
+.primary-gradient-bg {
+  background-color: $dark-off-black;
+  background-image: linear-gradient(45deg, $dark-off-black, $dark-blue);
+}
+.primary-bg {
+  background-color: $dark-blue;
+}
+.secondary-bg {
+  background-color: $light-blue;
+}

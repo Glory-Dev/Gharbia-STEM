@@ -96,25 +96,25 @@
         // Effect
         transform: rotate(180deg);
         writing-mode: vertical-lr;
-        line-height: 0.8;
+        line-height: 0.75;
       }
       &[data-heading*="About"]::after {
-        font-size: 74px;
+        font-size: 82px;
       }
       &[data-heading*="Academics"]::after {
-        font-size: 45px;
+        font-size: 48px;
       }
       &[data-heading*="Extra"]::after {
-        font-size: 37px;
+        font-size: 41px;
       }
       &[data-heading*="Admission"]::after {
-        font-size: 47px;
+        font-size: 51px;
       }
       &[data-heading*="Alumni"]::after {
-        font-size: 69px;
+        font-size: 75px;
       }
       &[data-heading*="Contact"]::after {
-        font-size: 56px;
+        font-size: 59px;
       }
     }
     .image {
