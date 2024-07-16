@@ -18,5 +18,20 @@ body {
   @import "./sass/pages/home";
   //-- About
   @import "./sass/pages/about";
-  @import "./sass/pages/faculty";
+  @import "./sass/pages/about/virtual-tour";
+  @import "./sass/pages/about/faculty";
+  @import "./sass/pages/about/dorm";
+  @import "./sass/pages/about/facilities";
+  //-- Academics
+  @import "./sass/pages/academics";
+  @import "./sass/pages/academic/materials";
+  //-- ECs
+  @import "./sass/pages/extracurriculars.scss";
+  @import "./sass/pages/extracurriculars/awards-honors";
+  @import "./sass/pages/extracurriculars/clubs-teams";
+  @import "./sass/pages/extracurriculars/programs";
+  //-- Others
+  @import "./sass/pages/admission";
+  @import "./sass/pages/alumni";
+  @import "./sass/pages/contact";
 }
