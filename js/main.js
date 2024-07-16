@@ -5,13 +5,22 @@ window.onload = function () {
   preloader.classList.add("loaded");
 };
 
+// Navbar
+const navbar = document.querySelector(".navbar .navbar-links");
+const navbarToggler = document.querySelector(".navbar .menu-icon");
+const navbarMegeMenuLinks = document.querySelectorAll(".navbar .mega-menu a");
+
+navbarMegeMenuLinks.forEach((a) => {
+  a.addEventListener("click", function () {
+    navbarToggler.ariaExpanded = false;
+    navbar.classList.remove("show");
+  });
+});
+
 // Stats Increasing Number animation
 const stats = document.querySelector(".about-main-content .stats");
 const statsElements = document.querySelectorAll(".about-main-content .stats .counter-animation");
 let started = false;
-
-console.log(stats)
-console.log(statsElements)
 
 window.onscroll = function () {
   if (window.scrollY >= stats.offsetTop - 500) {
