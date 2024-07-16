@@ -4,7 +4,7 @@
     background: {
       size: cover;
       position: 45%;
-      image: url("../../images/dorm/dorm.jpg");
+      image: url("../images/dorm/dorm.jpg");
     }
     padding-bottom: 5rem;
     @include overlay(transparent, 0) {

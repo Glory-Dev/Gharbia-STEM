@@ -24,7 +24,6 @@
       font-size: 1rem;
       text-align: center;
     }
-    color: hwb(0 0% 0%);
   }
 
   // Inside box component
@@ -93,7 +92,7 @@
       .text {
         padding: 0 1.25rem;
       }
-      
+
       @media (max-width: 767.98px) {
         .image {
           padding: 5px;

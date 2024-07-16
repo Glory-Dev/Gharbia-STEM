@@ -4,7 +4,7 @@
     background: {
       size: cover;
       position: 45%;
-      image: url("../../images/facilities/head.jpg");
+      image: url("../images/facilities/head.jpg");
     }
     padding-bottom: 5rem;
     @include overlay(transparent, 0) {
