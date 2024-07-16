@@ -1,13 +1,14 @@
 .sub-section {
-  .heading {
+  .head {
     font-size: 1.25rem;
+    font-weight: $fw-extra-light !important;
     @media (min-width: 768px) {
       font-size: 2rem;
     }
   }
   p {
     @media (min-width: 768px) {
-      font-size: 1.5rem;
+      font-size: 1.25rem;
     }
   }
   a {
@@ -23,16 +24,15 @@
       font-size: 1rem;
       text-align: center;
     }
+    color: hwb(0 0% 0%);
   }
 
   // Inside box component
-  > .box {
+  .box .container {
     @media (max-width: 767.98px) {
       padding-top: 1rem;
     }
     .text {
-      padding: 0 1.25rem;
-
       p {
         text-align: justify;
       }
@@ -53,6 +53,7 @@
 
         @media (min-width: 768px) {
           position: relative;
+          margin-top: 3rem;
 
           &::after {
             content: "";
@@ -89,6 +90,10 @@
     }
     &.left,
     &.right {
+      .text {
+        padding: 0 1.25rem;
+      }
+      
       @media (max-width: 767.98px) {
         .image {
           padding: 5px;
@@ -127,12 +132,7 @@
         }
       }
     }
-    &.left {
-      background-color: $light-blue;
-    }
     &.right {
-      background-color: $dark-blue;
-
       @media (max-width: 767.98px) {
         display: flex;
         flex-direction: column-reverse;
