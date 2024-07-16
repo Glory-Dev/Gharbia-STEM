@@ -29,6 +29,9 @@
       position: relative;
       text-transform: capitalize;
       border-bottom: 1px solid white;
+      @media (max-width: 767.98px) {
+        padding: 0.5rem 0;
+      }
 
       &::after {
         content: "";

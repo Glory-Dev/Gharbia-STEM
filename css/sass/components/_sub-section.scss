@@ -6,9 +6,8 @@
     }
   }
   p {
-
     @media (min-width: 768px) {
-      font-size: 1.75rem;
+      font-size: 1.5rem;
     }
   }
   a {
@@ -28,62 +27,115 @@
 
   // Inside box component
   > .box {
-    &.left {
-      background-color: $light-blue;
+    @media (max-width: 767.98px) {
+      padding-top: 1rem;
     }
-    &.right {
-      background-color: $dark-blue;
-    }
-
-    > .text {
+    .text {
       padding: 0 1.25rem;
 
       p {
         text-align: justify;
       }
     }
-    > .image {
-      padding: 5px;
-      border: 3px solid white;
+    .image {
     }
 
-    @media (max-width: 767.98px) {
-      padding-top: 1rem;
-      &.right {
-        display: flex;
-        flex-direction: column-reverse;
-      }
-    }
-    @media (min-width: 768px) {
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
+    &.double-pictures {
+      > .images-holder {
+        @media (max-width: 767.98px) {
+          .image {
+            border: 3px solid white;
+            &:first-child {
+              margin-bottom: 0.5rem;
+            }
+          }
+        }
 
-      > .text {
-        padding: 0;
-        flex-basis: 55%;
-        padding: 20px;
-      }
-      > .image {
-        padding: 0;
-        border: none;
-        flex-basis: 45%;
-        text-align: right;
-        position: relative;
+        @media (min-width: 768px) {
+          position: relative;
 
-        &::before {
-          content: "";
-          position: absolute;
-          top: 0;
-          left: 0;
-          width: 100%;
-          height: 100%;
-          background: linear-gradient(to right, $light-blue, transparent 30%);
+          &::after {
+            content: "";
+            position: absolute;
+            width: 1px;
+            height: 100%;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: white;
+          }
+
+          > .image {
+            position: relative;
+
+            &::before {
+              content: "";
+              position: absolute;
+              width: 100%;
+              height: 100%;
+              top: 0;
+            }
+            &:first-child::before {
+              right: 0;
+              background: linear-gradient(to left, $dark-blue, $dark-blue 5%, transparent 50%);
+            }
+            &:last-child::before {
+              left: 0;
+              background: linear-gradient(to right, $dark-blue, $dark-blue 5%, transparent 50%);
+            }
+          }
         }
       }
-      &.right > .image::before {
-        right: 0;
-        background: linear-gradient(to left, $dark-blue, transparent 30%);
+    }
+    &.left,
+    &.right {
+      @media (max-width: 767.98px) {
+        .image {
+          padding: 5px;
+          border: 3px solid white;
+        }
+      }
+      @media (min-width: 768px) {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+
+        > .text {
+          padding: 0;
+          flex-basis: 55%;
+          padding: 20px;
+        }
+        > .image {
+          padding: 0;
+          flex-basis: 45%;
+          text-align: right;
+          position: relative;
+
+          &::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(to right, $light-blue, transparent 30%);
+          }
+        }
+        &.right > .image::before {
+          right: 0;
+          background: linear-gradient(to left, $dark-blue, transparent 30%);
+        }
+      }
+    }
+    &.left {
+      background-color: $light-blue;
+    }
+    &.right {
+      background-color: $dark-blue;
+
+      @media (max-width: 767.98px) {
+        display: flex;
+        flex-direction: column-reverse;
       }
     }
   }
