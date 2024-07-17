@@ -1,7 +1,50 @@
-
 // For Bootstrap
 .w-fit-content {
   width: fit-content !important;
+}
+
+// Table
+.table-colored {
+  tr {
+    &:nth-of-type(even) {
+      background-color: $dark-blue;
+    }
+    &:nth-of-type(odd) {
+      background-color: $light-blue;
+    }
+
+    td,
+    th {
+      color: white;
+      background-color: transparent;
+      font-family: $body-secondary-font;
+    }
+  }
+}
+.table-transparent {
+  td,
+  th {
+    background-color: transparent;
+  }
+}
+.table-white {
+  td,
+  th {
+    color: white;
+  }
+}
+.table-center {
+  margin: auto auto 0;
+
+  @media (min-width: 767.98px) {
+    width: 70%;
+
+    td,
+    th {
+      font-size: 1.5rem;
+      padding: 1rem 3rem;
+    }
+  }
 }
 
 // Main Background

@@ -17,7 +17,7 @@
   - [ ] Awards & Honors
 - [ ] Academics
   - [x] Main Page
-  - [ ] Materials Page
+  - [x] Materials Page
 - [ ] Admission Page
 - [ ] Alumni Page
 - [ ] Contact Page
