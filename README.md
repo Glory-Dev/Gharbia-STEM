@@ -16,7 +16,7 @@
   - [ ] Programs & Activities
   - [ ] Awards & Honors
 - [ ] Academics
-  - [ ] Main Page
+  - [x] Main Page
   - [ ] Materials Page
 - [ ] Admission Page
 - [ ] Alumni Page
