@@ -1,4 +1,5 @@
 # Gharbia-STEM
+
 - [x] Welcome Page
 - [x] Navbar component
 - [x] Footer component
@@ -10,7 +11,7 @@
   - [x] Dorm
   - [ ] Facilities (Labs Gallery & Activity Rooms)
 - [ ] ECs
-  - [ ] Main Page
+  - [x] Main Page
   - [ ] Clubs & Teams
   - [ ] Programs & Activities
   - [ ] Awards & Honors
