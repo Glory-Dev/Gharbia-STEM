@@ -6,12 +6,16 @@ window.onload = function () {
 };
 
 // Navbar
-const navbar = document.querySelector(".navbar .navbar-links");
-const navbarToggler = document.querySelector(".navbar .menu-icon");
-const navbarMegeMenuLinks = document.querySelectorAll(".navbar .mega-menu a");
+const navbar = document.querySelector("body > .navbar .navbar-links");
+const navbarToggler = document.querySelector("body > .navbar .menu-icon");
+const navbarMegeMenuLinks = document.querySelectorAll("body > .navbar .mega-menu a");
 
 navbarMegeMenuLinks.forEach((a) => {
   a.addEventListener("click", function () {
+    navbarToggler.ariaExpanded = false;
+    navbar.classList.remove("show");
+  });
+  document.querySelector("body > .navbar").nextElementSibling.addEventListener("click", function () {
     navbarToggler.ariaExpanded = false;
     navbar.classList.remove("show");
   });
