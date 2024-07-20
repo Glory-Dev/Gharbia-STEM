@@ -48,6 +48,14 @@ const footerDate = document.querySelector("footer .bottom-footer > .date");
 
 footerDate.textContent = date.getFullYear();
 
+// Bootstrap Modal Component
+// const myModal = document.getElementById("myModal");
+// const myInput = document.getElementById("myInput");
+
+// myModal.addEventListener("shown.bs.modal", () => {
+//   myInput.focus();
+// });
+
 // AOS Animation Library
 AOS.init();
 AOS.init({

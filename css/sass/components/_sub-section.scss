@@ -2,12 +2,12 @@
   .head {
     font-size: 1.25rem;
     font-weight: $fw-extra-light !important;
-    @media (min-width: 768px) {
+    @media (min-width: 992px) {
       font-size: 2rem;
     }
   }
   p {
-    @media (min-width: 768px) {
+    @media (min-width: 992px) {
       font-size: 1.25rem;
     }
   }
@@ -20,7 +20,7 @@
     font-size: 1.5rem;
     padding: 0.5rem 1rem;
 
-    @media (max-width: 767.98px) {
+    @media (max-width: 991.98px) {
       font-size: 1rem;
       text-align: center;
     }
@@ -28,7 +28,7 @@
 
   // Inside box component
   .box .container {
-    @media (max-width: 767.98px) {
+    @media (max-width: 991.98px) {
       padding-top: 1rem;
     }
     .text {
@@ -41,7 +41,7 @@
 
     &.double-pictures {
       > .images-holder {
-        @media (max-width: 767.98px) {
+        @media (max-width: 991.98px) {
           .image {
             border: 3px solid white;
             &:first-child {
@@ -50,7 +50,7 @@
           }
         }
 
-        @media (min-width: 768px) {
+        @media (min-width: 992px) {
           position: relative;
           margin-top: 3rem;
 
@@ -93,13 +93,13 @@
         padding: 0 1.25rem;
       }
 
-      @media (max-width: 767.98px) {
+      @media (max-width: 991.98px) {
         .image {
           padding: 5px;
           border: 3px solid white;
         }
       }
-      @media (min-width: 768px) {
+      @media (min-width: 992px) {
         display: flex;
         flex-wrap: wrap;
         align-items: center;
@@ -132,7 +132,7 @@
       }
     }
     &.right {
-      @media (max-width: 767.98px) {
+      @media (max-width: 991.98px) {
         display: flex;
         flex-direction: column-reverse;
       }

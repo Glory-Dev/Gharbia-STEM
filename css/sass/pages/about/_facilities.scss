@@ -1,22 +1,77 @@
 .about-facilities-content {
   .landing {
-    min-height: calc(100vh - 76px);
-    background: {
-      size: cover;
-      position: 45%;
-      image: url("../images/facilities/head.jpg");
-    }
-    padding-bottom: 5rem;
-    @include overlay(transparent, 0) {
-      background-image: linear-gradient(to top, black, transparent 75%);
+    background-image: url("../images/facilities/head.jpg");
+  }
+
+  .toggler-menu {
+    row-gap: 1.5rem;
+
+    img {
+      width: 100%;
+      height: 100%;
     }
 
-    @media (min-width: 991.98px) {
-      padding-bottom: 10rem;
+    .toggler-menu-item {
+      button {
+        padding: 7px;
+        position: relative;
+        overflow: hidden;
+        background-color: $light-blue;
 
-      .main-heading {
-        font-size: 4rem !important;
+        &::before {
+          content: attr(data-pop);
+          position: absolute;
+          top: 0;
+          left: -100%;
+          width: 100%;
+          height: 100%;
+          color: white;
+          font-size: 2rem;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background-color: rgba($dark-blue, 0.8);
+          transition: left 0.3s;
+        }
+
+        &:hover::before {
+          left: 0;
+        }
       }
     }
+  }
+  .modal {
+    background-color: rgba($dark-off-black, 0.7);
+    // --bs-modal-width: 800px !important;
+
+    .modal-content {
+      box-shadow: 0 0 20px 0 rgba(white, 0.5);
+      background-color: $dark-off-black;
+      background-image: linear-gradient(45deg, $dark-off-black, $dark-blue);
+
+      .modal-header {
+        button::after {
+          display: none;
+        }
+      }
+      .modal-body {
+      }
+    }
+  }
+
+  .science-labs {
+    > .box .image {
+      @media (max-width: 991.98px) {
+        margin-bottom: 2rem;
+      }
+      &::before {
+        display: none;
+      }
+    }
+
+    .labs-gallery {
+    }
+  }
+  .activities {
   }
 }

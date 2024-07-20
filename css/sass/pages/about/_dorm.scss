@@ -1,22 +1,5 @@
 .about-dorm-content {
   .landing {
-    min-height: calc(100vh - 76px);
-    background: {
-      size: cover;
-      position: 45%;
-      image: url("../images/dorm/dorm.jpg");
-    }
-    padding-bottom: 5rem;
-    @include overlay(transparent, 0) {
-      background-image: linear-gradient(to top, black, transparent 75%);
-    }
-
-    @media (min-width: 991.98px) {
-      padding-bottom: 10rem;
-
-      .main-heading {
-        font-size: 4rem !important;
-      }
-    }
+    background-image: url("../images/dorm/dorm.jpg");
   }
 }
