@@ -1,0 +1,89 @@
+.admission-main-content {
+  .admission-process {
+    counter-set: steps -1;
+
+    .step {
+      &:nth-child(odd) {
+        background-color: $dark-blue;
+      }
+      &:nth-child(even) {
+        background-color: $light-blue;
+      }
+      counter-increment: steps;
+
+      .container {
+        .counter {
+          text-align: center;
+          padding-top: 2rem;
+          font-size: 1.5rem;
+
+          &::before {
+            content: "STEP: 0" counter(steps);
+          }
+        }
+        @media (min-width: 768px) {
+          display: flex;
+
+          .counter {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-top: 0;
+            flex-basis: 200px;
+            font: {
+              size: 10rem;
+              weight: $fw-extra-bold;
+              family: $body-numbers-font;
+            }
+            border-right: 1px solid white;
+
+            &::before {
+              content: "0" counter(steps);
+            }
+          }
+        }
+
+        .text {
+          padding: 2rem;
+          flex-basis: calc(100% - 200px);
+
+          ul {
+            list-style: disc inside;
+            font-family: $body-secondary-font;
+
+            li:not(:last-child) {
+              margin-bottom: 0.5rem;
+            }
+          }
+        }
+      }
+
+      &.three .text .sections {
+        gap: 15px;
+
+        > div {
+          width: calc((100% / 2) - 30px);
+        }
+      }
+    }
+  }
+
+  .admission-faq {
+    .accordion-item {
+      background-color: $dark-blue;
+      color: white;
+
+      .accordion-header button {
+        background-color: $light-blue;
+        color: white;
+
+        &::after {
+          // background: none;
+          // font-family: "Font Awesome 6 Free";
+          // font-weight: 900;
+          // content: "\f078";
+        }
+      }
+    }
+  }
+}

@@ -15,10 +15,10 @@
   - [ ] Clubs & Teams
   - [ ] Programs & Activities
   - [ ] Awards & Honors
-- [ ] Academics
+- [x] Academics
   - [x] Main Page
   - [x] Materials Page
-- [ ] Admission Page
+- [x] Admission Page
 - [ ] Alumni Page
 - [ ] Contact Page
 
