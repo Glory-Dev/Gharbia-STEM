@@ -1,5 +1,8 @@
 .about-dorm-content {
   .landing {
-    background-image: url("../images/dorm/dorm.jpg");
+    background: {
+      position: 45%;
+      image: url("../images/dorm/dorm.jpg");
+    }
   }
 }
