@@ -1,224 +1,142 @@
 {
-  "committees": [
+  "members": [
     {
-      "name": "management",
-      "members": [
-        {
-          "name": "John Doe",
-          "profession": "Manager",
-          "image": "avatar.jpg"
-        },
-        {
-          "name": "Jane Smith",
-          "profession": "Assistant Manager",
-          "image": "assistant_manager.jpg"
-        }
-      ]
+      "name": "John Doe",
+      "profession": "Manager",
+      "image": "manager.jpg",
+      "committees": ["management", "financial"]
     },
     {
-      "name": "financial",
-      "members": [
-        {
-          "name": "Alice Johnson",
-          "profession": "Financial Advisor",
-          "image": "financial_advisor.jpg"
-        },
-        {
-          "name": "Bob Brown",
-          "profession": "Accountant",
-          "image": "accountant.jpg"
-        }
-      ]
+      "name": "Jane Smith",
+      "profession": "Assistant Manager",
+      "image": "assistant_manager.jpg",
+      "committees": ["management"]
     },
     {
-      "name": "dorm",
-      "members": [
-        {
-          "name": "Charlie Davis",
-          "profession": "Dorm Supervisor",
-          "image": "dorm_supervisor.jpg"
-        }
-      ]
+      "name": "Alice Johnson",
+      "profession": "Financial Advisor",
+      "image": "financial_advisor.jpg",
+      "committees": ["financial"]
     },
     {
-      "name": "chief",
-      "members": [
-        {
-          "name": "Emily Wilson",
-          "profession": "Chief",
-          "image": "chief.jpg"
-        }
-      ]
+      "name": "Bob Brown",
+      "profession": "Accountant",
+      "image": "accountant.jpg",
+      "committees": ["financial"]
     },
     {
-      "name": "arabic",
-      "members": [
-        {
-          "name": "Fadi Ahmed",
-          "profession": "Arabic Teacher",
-          "image": "arabic_teacher.jpg"
-        }
-      ]
+      "name": "Charlie Davis",
+      "profession": "Dorm Supervisor",
+      "image": "dorm_supervisor.jpg",
+      "committees": ["dorm"]
     },
     {
-      "name": "english",
-      "members": [
-        {
-          "name": "Grace Lee",
-          "profession": "English Teacher",
-          "image": "english_teacher.jpg"
-        }
-      ]
+      "name": "Emily Wilson",
+      "profession": "Chief",
+      "image": "chief.jpg",
+      "committees": ["chief"]
     },
     {
-      "name": "mathematics",
-      "members": [
-        {
-          "name": "Henry Kim",
-          "profession": "Math Teacher",
-          "image": "math_teacher.jpg"
-        }
-      ]
+      "name": "Fadi Ahmed",
+      "profession": "Arabic Teacher",
+      "image": "arabic_teacher.jpg",
+      "committees": ["arabic"]
     },
     {
-      "name": "biology",
-      "members": [
-        {
-          "name": "Isabella Martinez",
-          "profession": "Biology Teacher",
-          "image": "biology_teacher.jpg"
-        }
-      ]
+      "name": "Grace Lee",
+      "profession": "English Teacher",
+      "image": "english_teacher.jpg",
+      "committees": ["english"]
     },
     {
-      "name": "earth science",
-      "members": [
-        {
-          "name": "Jack Chen",
-          "profession": "Earth Science Teacher",
-          "image": "earth_science_teacher.jpg"
-        }
-      ]
+      "name": "Henry Kim",
+      "profession": "Math Teacher",
+      "image": "math_teacher.jpg",
+      "committees": ["mathematics"]
     },
     {
-      "name": "chemistry",
-      "members": [
-        {
-          "name": "Karen Lopez",
-          "profession": "Chemistry Teacher",
-          "image": "chemistry_teacher.jpg"
-        }
-      ]
+      "name": "Isabella Martinez",
+      "profession": "Biology Teacher",
+      "image": "biology_teacher.jpg",
+      "committees": ["biology"]
     },
     {
-      "name": "physics",
-      "members": [
-        {
-          "name": "Liam Patel",
-          "profession": "Physics Teacher",
-          "image": "physics_teacher.jpg"
-        }
-      ]
+      "name": "Jack Chen",
+      "profession": "Earth Science Teacher",
+      "image": "earth_science_teacher.jpg",
+      "committees": ["earth science"]
     },
     {
-      "name": "social studies",
-      "members": [
-        {
-          "name": "Mia Clark",
-          "profession": "Social Studies Teacher",
-          "image": "social_studies_teacher.jpg"
-        }
-      ]
+      "name": "Karen Lopez",
+      "profession": "Chemistry Teacher",
+      "image": "chemistry_teacher.jpg",
+      "committees": ["chemistry"]
     },
     {
-      "name": "second language",
-      "members": [
-        {
-          "name": "Noah Gonzalez",
-          "profession": "Spanish Teacher",
-          "image": "spanish_teacher.jpg"
-        }
-      ]
+      "name": "Liam Patel",
+      "profession": "Physics Teacher",
+      "image": "physics_teacher.jpg",
+      "committees": ["physics"]
     },
     {
-      "name": "computer science",
-      "members": [
-        {
-          "name": "Olivia Harris",
-          "profession": "Computer Science Teacher",
-          "image": "computer_science_teacher.jpg"
-        }
-      ]
+      "name": "Mia Clark",
+      "profession": "Social Studies Teacher",
+      "image": "social_studies_teacher.jpg",
+      "committees": ["social studies"]
     },
     {
-      "name": "activities",
-      "members": [
-        {
-          "name": "Paul Martinez",
-          "profession": "Activities Coordinator",
-          "image": "activities_coordinator.jpg"
-        }
-      ]
+      "name": "Noah Gonzalez",
+      "profession": "Spanish Teacher",
+      "image": "spanish_teacher.jpg",
+      "committees": ["second language"]
     },
     {
-      "name": "counseling",
-      "members": [
-        {
-          "name": "Quinn Walker",
-          "profession": "Counselor",
-          "image": "counselor.jpg"
-        }
-      ]
+      "name": "Olivia Harris",
+      "profession": "Computer Science Teacher",
+      "image": "computer_science_teacher.jpg",
+      "committees": ["computer science"]
     },
     {
-      "name": "capstone",
-      "members": [
-        {
-          "name": "Rachel Young",
-          "profession": "Capstone Project Advisor",
-          "image": "capstone_advisor.jpg"
-        }
-      ]
+      "name": "Paul Martinez",
+      "profession": "Activities Coordinator",
+      "image": "activities_coordinator.jpg",
+      "committees": ["activities"]
     },
     {
-      "name": "fab lab",
-      "members": [
-        {
-          "name": "Sam Carter",
-          "profession": "Fab Lab Coordinator",
-          "image": "fab_lab_coordinator.jpg"
-        }
-      ]
+      "name": "Quinn Walker",
+      "profession": "Counselor",
+      "image": "counselor.jpg",
+      "committees": ["counseling"]
     },
     {
-      "name": "IT",
-      "members": [
-        {
-          "name": "Tina Adams",
-          "profession": "IT Specialist",
-          "image": "it_specialist.jpg"
-        }
-      ]
+      "name": "Rachel Young",
+      "profession": "Capstone Project Advisor",
+      "image": "capstone_advisor.jpg",
+      "committees": ["capstone"]
     },
     {
-      "name": "social worker",
-      "members": [
-        {
-          "name": "Uma Thompson",
-          "profession": "Social Worker",
-          "image": "social_worker.jpg"
-        }
-      ]
+      "name": "Sam Carter",
+      "profession": "Fab Lab Coordinator",
+      "image": "fab_lab_coordinator.jpg",
+      "committees": ["fab lab"]
     },
     {
-      "name": "psychologist",
-      "members": [
-        {
-          "name": "Victor Nguyen",
-          "profession": "Psychologist",
-          "image": "psychologist.jpg"
-        }
-      ]
+      "name": "Tina Adams",
+      "profession": "IT Specialist",
+      "image": "it_specialist.jpg",
+      "committees": ["IT"]
+    },
+    {
+      "name": "Uma Thompson",
+      "profession": "Social Worker",
+      "image": "social_worker.jpg",
+      "committees": ["social worker"]
+    },
+    {
+      "name": "Victor Nguyen",
+      "profession": "Psychologist",
+      "image": "psychologist.jpg",
+      "committees": ["psychologist"]
     }
   ]
 }
