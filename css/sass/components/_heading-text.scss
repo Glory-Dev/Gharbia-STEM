@@ -18,7 +18,7 @@
         padding: 0.5rem 7rem;
       }
 
-      &:has(+ .main-quote) {
+      &:has(+ .main-quote, + .main-para) {
         margin-bottom: 7rem;
       }
 
@@ -47,6 +47,12 @@
 
     &.stroke {
       border-bottom: 1px solid white;
+    }
+  }
+  .main-para {
+    font: {
+      weight: $fw-light;
+      family: $body-primary-font;
     }
   }
 }
