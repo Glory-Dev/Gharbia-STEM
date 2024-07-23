@@ -2,3 +2,5 @@
 node_modules
 # Images folder until being compressed
 test images
+# Activities data
+activities data
