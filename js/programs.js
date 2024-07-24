@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
   // fetch("http://127.0.0.1:5500/data/programs.json")
-  fetch("https://glory-dev.github.io/Gharbia-STEM/data/programs.json")
+  fetch("../../data/programs.json")
     .then((response) => response.json())
     .then((data) => {
       const container = document.getElementById("programsContainer");
