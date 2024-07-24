@@ -1,0 +1,170 @@
+{
+  "programs": [
+    {
+      "name": "Pioneer",
+      "logo": "pioneer.jpg",
+      "organization": "Pioneer Organization",
+      "organizationLogo": "pioneer_org.png",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad maiores architecto mollitia temporibus cumque nemo quia, a ab quos nulla facere laborum veniam modi autem nobis praesentium ullam, odit provident, voluptas labore hic non quo?",
+      "students": [
+        {
+          "name": "John Doe",
+          "image": "avatar.jpg",
+          "graduationYear": "2025",
+          "cohort": "Summer 2026",
+          "financialAid": "Full Financial Aid"
+        },
+        {
+          "name": "Jane Smith",
+          "image": "avatar.jpg",
+          "graduationYear": "2024",
+          "cohort": "Fall 2026",
+          "financialAid": "Partial Financial Aid"
+        }
+      ]
+    },
+    {
+      "name": "LaunchX",
+      "logo": "launchx.webp",
+      "organizationLogo": "launchx_org.jpg",
+      "description": "LaunchX brings together high school entrepreneurs with the resources and network to start real companies.",
+      "organization": "LaunchX Organization",
+      "students": [
+        {
+          "name": "Alice Johnson",
+          "image": "avatar.jpg",
+          "graduationYear": "2025",
+          "cohort": "Spring 2027",
+          "financialAid": "No Financial Aid"
+        },
+        {
+          "name": "Bob Brown",
+          "image": "avatar.jpg",
+          "graduationYear": "2023",
+          "cohort": "Winter 2026",
+          "financialAid": "Full Financial Aid"
+        }
+      ]
+    },
+    {
+      "name": "Lumiere",
+      "shorthand": "lum",
+      "logo": "lumiere.jpg",
+      "organizationLogo": "lumiere_org.jpg",
+      "description": "Lumiere provides a platform for high school students to conduct research under the guidance of expert mentors.",
+      "organization": "Lumiere Organization",
+      "students": [
+        {
+          "name": "Charlie Green",
+          "image": "avatar.jpg",
+          "graduationYear": "2025",
+          "cohort": "Summer 2026",
+          "financialAid": "Partial Financial Aid"
+        },
+        {
+          "name": "Dana White",
+          "image": "avatar.jpg",
+          "graduationYear": "2024",
+          "cohort": "Fall 2026",
+          "financialAid": "No Financial Aid"
+        }
+      ]
+    },
+    {
+      "name": "PROMYS",
+      "shorthand": "pro",
+      "logo": "promys.jpg",
+      "organizationLogo": "promys_org.jpg",
+      "description": "PROMYS is a challenging program designed to encourage ambitious high school students to explore the creative world of mathematics.",
+      "organization": "PROMYS Organization",
+      "students": [
+        {
+          "name": "Eve Black",
+          "image": "avatar.jpg",
+          "graduationYear": "2023",
+          "cohort": "Spring 2026",
+          "financialAid": "Full Financial Aid"
+        },
+        {
+          "name": "Frank White",
+          "image": "avatar.jpg",
+          "graduationYear": "2024",
+          "cohort": "Winter 2027",
+          "financialAid": "Partial Financial Aid"
+        }
+      ]
+    },
+    {
+      "name": "Youth Science Journal",
+      "shorthand": "ysj",
+      "logo": "ysj.jpg",
+      "organizationLogo": "ysj_org.jpg",
+      "description": "YSJ offers a platform for young scientists to publish their research and engage with the scientific community.",
+      "organization": "YSJ Organization",
+      "students": [
+        {
+          "name": "Grace Adams",
+          "image": "avatar.jpg",
+          "graduationYear": "2025",
+          "cohort": "Spring 2027",
+          "financialAid": "No Financial Aid"
+        },
+        {
+          "name": "Henry Brown",
+          "image": "avatar.jpg",
+          "graduationYear": "2023",
+          "cohort": "Winter 2026",
+          "financialAid": "Full Financial Aid"
+        }
+      ]
+    },
+    {
+      "name": "Yale Young African Scholar",
+      "shorthand": "yyas",
+      "logo": "yyas.jpg",
+      "organizationLogo": "yyas_org.jpg",
+      "description": "YYAS is an intensive academic and enrichment program designed for African secondary school students planning to pursue tertiary education and make meaningful contributions as young leaders.",
+      "organization": "YYAS Organization",
+      "students": [
+        {
+          "name": "Ivy Green",
+          "image": "avatar.jpg",
+          "graduationYear": "2025",
+          "cohort": "Summer 2026",
+          "financialAid": "Partial Financial Aid"
+        },
+        {
+          "name": "Jack Black",
+          "image": "avatar.jpg",
+          "graduationYear": "2024",
+          "cohort": "Fall 2026",
+          "financialAid": "No Financial Aid"
+        }
+      ]
+    },
+    {
+      "name": "Competitive College Club",
+      "shorthand": "ccc",
+      "logo": "ccc.jpg",
+      "organizationLogo": "ccc_org.jpg",
+      "description": "CCC helps high-achieving students navigate the college application process and gain admission to highly competitive colleges and universities.",
+      "organization": "CCC Organization",
+      "students": [
+        {
+          "name": "Kate White",
+          "image": "avatar.jpg",
+          "graduationYear": "2023",
+          "cohort": "Spring 2026",
+          "financialAid": "Full Financial Aid"
+        },
+        {
+          "name": "Leo Brown",
+          "image": "avatar.jpg",
+          "graduationYear": "2024",
+          "cohort": "Winter 2027",
+          "financialAid": "Partial Financial Aid"
+        }
+      ]
+    }
+  ]
+}
