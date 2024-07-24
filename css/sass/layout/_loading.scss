@@ -4,15 +4,19 @@
   $border-width-2: $border-width * 2;
   $spinner-width-2: $spinner-width + 50px;
 
+  position: fixed;
+  top: 0;
+  left: 0;
   width: 100vw;
   height: 100vh;
   z-index: 1000;
-  background-color: white;
-  transition: background-color 1s;
+  background-color: $dark-blue;
+  background-image: linear-gradient(0deg, $dark-off-black, $dark-blue);
+  transition: none;
   &.loaded {
     opacity: 0;
     visibility: hidden;
-    transition: opacity 1s, visibility, 1s;
+    transition: opacity 1s, visibility 1s;
   }
 
   @keyframes spinner {
@@ -46,13 +50,14 @@
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
-      border: $border-width-2 solid #2196f3;
+      border: $border-width-2 solid white;
       border-bottom-color: transparent;
     }
     &::after {
-      bottom: -(calc($border-width-2 - 3px)) - 3px;
-      right: $border-width-2 + 5px;
-      border: calc($border-width-2 - 3px) solid #2196f3;
+      bottom: -(calc($border-width-2 - 3px));
+      right: $border-width-2;
+      padding: 3px;
+      border: calc($border-width-2 - 5px) solid white;
     }
   }
 }
