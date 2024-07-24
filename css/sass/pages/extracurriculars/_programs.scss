@@ -1,0 +1,83 @@
+.ecs-programs-content {
+  .program {
+    .container {
+      padding: 0 0 80px;
+
+      > .card {
+        > .header {
+          position: relative;
+
+          &::after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 60%;
+            height: 2px;
+            background-color: white;
+          }
+        }
+
+        > .accepted-students {
+          position: relative;
+
+          @include overlay(transparent, 0) {
+            height: 1000%;
+            background-image: linear-gradient(to bottom, black, transparent 95%);
+            transition: opacity 0.5s;
+          }
+
+          &:has(.collapsing)::after {
+            opacity: 0;
+          }
+
+          .collapse {
+            position: relative;
+
+            &:not(.show) {
+              display: block;
+              height: 50px;
+            }
+          }
+
+          > .collapsing {
+            height: 50px;
+            overflow: visible;
+            transition: height 0.3s;
+          }
+
+          .toggler {
+            position: absolute;
+            bottom: -50px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 100;
+            transition: top 0.3s, bottom 0.3s;
+
+            &::before {
+              content: "See Accepted Students";
+            }
+          }
+
+          &:has(.show) {
+            &::after {
+              opacity: 0;
+            }
+
+            .toggler {
+              &::before {
+                content: "Hide Accepted Students";
+              }
+            }
+          }
+
+          .card {
+            img[src*="."] {
+              display: none;
+            }
+          }
+        }
+      }
+    }
+  }
+}
