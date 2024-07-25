@@ -26,7 +26,7 @@ function generateProgramSections(container, programs) {
 
     // Program Logo
     const logoCol = document.createElement("div");
-    logoCol.className = "col-md-2";
+    logoCol.className = "col-md-4 col-lg-3 col-xl-2";
     const logoImg = document.createElement("img");
     logoImg.src = `./../../images/programs/${program.logo}`;
     logoImg.className = "card-img program-logo";
@@ -34,13 +34,13 @@ function generateProgramSections(container, programs) {
 
     // Card Content
     const infoCol = document.createElement("div");
-    infoCol.className = "col-md-8";
+    infoCol.className = "col-md-8 col-lg-9 col-xl-10";
 
     const cardBody = document.createElement("div");
-    cardBody.className = "card-body px-0 py-4";
+    cardBody.className = "card-body ps-md-0 pe-md-4 py-4";
 
     const programTitle = document.createElement("h2");
-    programTitle.className = "card-title";
+    programTitle.className = "card-title text-center text-md-start";
     programTitle.textContent = program.shorthand ? `${program.name} (${program.shorthand.toUpperCase()})` : program.name;
 
     const programDescription = document.createElement("p");
@@ -48,17 +48,8 @@ function generateProgramSections(container, programs) {
     programDescription.textContent = program.description;
 
     const programOrganization = document.createElement("p");
-    programOrganization.className = "card-text fs-5";
-
-    programOrganization.textContent = `Organization: ${program.organization}`;
-
-    // Organization Info
-    const orgCol = document.createElement("div");
-    orgCol.className = "col-md-2";
-    const orgLogo = document.createElement("img");
-    orgLogo.src = `./../../images/organizations/${program.organizationLogo}`;
-    orgLogo.className = "org-logo";
-    orgLogo.alt = program.organization;
+    programOrganization.className = "card-text fs-5 text-center text-md-start";
+    programOrganization.textContent = `${program.organization}`;
 
     cardBody.appendChild(programTitle);
     cardBody.appendChild(programOrganization);
@@ -67,10 +58,8 @@ function generateProgramSections(container, programs) {
     infoCol.appendChild(cardBody);
 
     logoCol.appendChild(logoImg);
-    orgCol.appendChild(orgLogo);
     headerRow.appendChild(logoCol);
     headerRow.appendChild(infoCol);
-    headerRow.appendChild(orgCol);
 
     card.appendChild(headerRow);
 
