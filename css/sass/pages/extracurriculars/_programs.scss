@@ -1,9 +1,17 @@
 .ecs-programs-content {
   .program {
+    @media (max-width: 767.98px) {
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
     .container {
       padding: 0 0 80px;
 
       > .card {
+        p.card-text {
+          text-align: justify;
+        }
+
         > .header {
           position: relative;
 
