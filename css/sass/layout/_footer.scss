@@ -13,38 +13,6 @@
       }
     }
   }
-  .footer-social {
-    li {
-      &:hover a {
-        background-color: #fff;
-
-        svg[class*="facebook"] {
-          color: $facebook;
-        }
-        svg[class*="instagram"] {
-          color: $instagram;
-        }
-        svg[class*="youtube"] {
-          color: $youtube;
-        }
-        svg[class*="linked"] {
-          color: $linkedin;
-        }
-      }
-      a {
-        display: block;
-        padding: 10px;
-        border-radius: 15px;
-        transition: background-color 0.3s;
-        background-color: rgba(255, 255, 255, 80%);
-
-        svg {
-          color: #222;
-          transition: color 0.3s;
-        }
-      }
-    }
-  }
   .footer-logo img {
     @media (max-width: 767.98px) {
       width: 200px;

@@ -58,3 +58,47 @@
 .secondary-bg {
   background-color: $light-blue;
 }
+
+// Social Links
+.social-links {
+  li {
+    &:hover a {
+      background-color: #fff;
+      transform: scale(1.2);
+
+      svg[class*="github"] {
+        color: $github;
+      }
+      svg[class*="youtube"] {
+        color: $youtube;
+      }
+      svg[class*="discord"] {
+        color: $discord;
+      }
+      svg[class*="twitter"] {
+        color: $twitter;
+      }
+      svg[class*="facebook"] {
+        color: $facebook;
+      }
+      svg[class*="instagram"] {
+        color: $instagram;
+      }
+      svg[class*="linked"] {
+        color: $linkedin;
+      }
+    }
+    a {
+      display: block;
+      padding: 10px;
+      border-radius: 15px;
+      transition: all 0.3s;
+      background-color: rgba(255, 255, 255, 80%);
+
+      svg {
+        color: #222;
+        transition: color 0.3s;
+      }
+    }
+  }
+}
