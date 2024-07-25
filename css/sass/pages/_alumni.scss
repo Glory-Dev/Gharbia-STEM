@@ -1,0 +1,108 @@
+.alumni-content {
+  .switch {
+  }
+  .senior {
+    .card-box {
+      width: 100%;
+      height: 270px;
+      position: relative;
+      transition: transform 0.5s;
+      transform-style: preserve-3d;
+      perspective: 1500px;
+      transition: all 0.1s;
+      &:hover {
+        transform: scale(1.05, 1.05);
+      }
+
+      // Animation
+      @keyframes lift {
+        0% {
+          transform: scale(1, 1);
+        }
+        20% {
+          transform: scale(1.2, 1.2);
+        }
+        80% {
+          transform: scale(1.1, 1.1);
+        }
+        100% {
+          transform: scale(1, 1);
+        }
+      }
+      @keyframes lift-shadow {
+        0% {
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+        }
+        20% {
+          box-shadow: 0 0 35px rgba(0, 0, 0, 0.6);
+        }
+        80% {
+          box-shadow: 0 0 35px rgba(0, 0, 0, 0.6);
+        }
+        100% {
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+        }
+      }
+
+      &:has(.rotate.active) {
+        animation: lift 0.4s linear;
+
+        > .card {
+          animation: lift-shadow 0.4s linear;
+
+          &.back {
+            visibility: visible;
+            transform: rotateX(0deg) rotateY(0deg);
+          }
+          &.front {
+            transform: rotateY(180deg);
+          }
+        }
+      }
+
+      > .rotate {
+        width: 30px;
+        height: 30px;
+        top: -10px;
+        left: -10px;
+      }
+
+      > .card {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        color: #fff;
+        overflow: hidden;
+        border-radius: 20px;
+        border-top-left-radius: 0;
+        backface-visibility: hidden;
+        transform-style: preserve-3d;
+        transition: all 0.4s ease-in-out;
+        /* Flex */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        &.front {
+          transform: rotateX(0deg) rotateY(0deg);
+
+          .social {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+
+            li {
+              a {
+                padding: 8px;
+                border-radius: 10px;
+              }
+            }
+          }
+        }
+        &.back {
+          transform: rotateY(-180deg);
+        }
+      }
+    }
+  }
+}
