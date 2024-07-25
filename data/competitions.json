@@ -1,0 +1,77 @@
+{
+  "competitions": [
+    {
+      "name": "Math Olympiad",
+      "shorthand": "math",
+      "logo": "math_olympiad.jpg",
+      "organizationLogo": "math_olympiad_org.jpg",
+      "description": "A prestigious competition for the best math students.",
+      "organization": "Math Olympiad Committee",
+      "teams": [
+        {
+          "teamName": "Alpha Team",
+          "members": [
+            {
+              "name": "John Doe",
+              "image": "john_doe.jpg",
+              "graduationYear": "2025"
+            },
+            {
+              "name": "Jane Smith",
+              "image": "jane_smith.jpg",
+              "graduationYear": "2024"
+            }
+          ],
+          "rank": "1st Place"
+        },
+        {
+          "teamName": "Beta Team",
+          "members": [
+            {
+              "name": "Alice Johnson",
+              "image": "alice_johnson.jpg",
+              "graduationYear": "2025"
+            },
+            {
+              "name": "Bob Brown",
+              "image": "bob_brown.jpg",
+              "graduationYear": "2024"
+            }
+          ],
+          "rank": "2nd Place"
+        }
+      ],
+      "individuals": [
+        {
+          "name": "Charlie Davis",
+          "image": "charlie_davis.jpg",
+          "graduationYear": "2023",
+          "rank": "3rd Place"
+        }
+      ]
+    },
+    {
+      "name": "Science Fair",
+      "shorthand": "science",
+      "logo": "isef.png",
+      "organizationLogo": "science_fair_org.jpg",
+      "description": "A fair showcasing the best science projects.",
+      "organization": "National Science Fair Committee",
+      "teams": [],
+      "individuals": [
+        {
+          "name": "Emily Clark",
+          "image": "emily_clark.jpg",
+          "graduationYear": "2023",
+          "rank": "1st Place"
+        },
+        {
+          "name": "David Wilson",
+          "image": "david_wilson.jpg",
+          "graduationYear": "2024",
+          "rank": "2nd Place"
+        }
+      ]
+    }
+  ]
+}
