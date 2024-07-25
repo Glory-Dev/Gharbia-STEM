@@ -3,9 +3,9 @@
     {
       "name": "Pioneer",
       "logo": "pioneer.jpg",
-      "organization": "Pioneer Organization",
-      "organizationLogo": "pioneer_org.png",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad maiores architecto mollitia temporibus cumque nemo quia, a ab quos nulla facere laborum veniam modi autem nobis praesentium ullam, odit provident, voluptas labore hic non quo?",
+      "organization": "Oberlin College",
+      "organizationLogo": "",
+      "description": "",
       "students": [
         {
           "name": "John Doe",
@@ -25,10 +25,10 @@
     },
     {
       "name": "LaunchX",
-      "logo": "launchx.webp",
-      "organizationLogo": "launchx_org.jpg",
+      "logo": "launchx.png",
+      "organization": "MIT",
+      "organizationLogo": "",
       "description": "LaunchX brings together high school entrepreneurs with the resources and network to start real companies.",
-      "organization": "LaunchX Organization",
       "students": [
         {
           "name": "Alice Johnson",
@@ -48,11 +48,10 @@
     },
     {
       "name": "Lumiere",
-      "shorthand": "lum",
-      "logo": "lumiere.jpg",
-      "organizationLogo": "lumiere_org.jpg",
+      "logo": "lumiere.png",
+      "organization": "Harvard & Oxford",
+      "organizationLogo": "",
       "description": "Lumiere provides a platform for high school students to conduct research under the guidance of expert mentors.",
-      "organization": "Lumiere Organization",
       "students": [
         {
           "name": "Charlie Green",
@@ -71,12 +70,12 @@
       ]
     },
     {
-      "name": "PROMYS",
-      "shorthand": "pro",
-      "logo": "promys.jpg",
-      "organizationLogo": "promys_org.jpg",
+      "name": "Program in Mathematics for Young Scientists",
+      "shorthand": "PROMYS",
+      "logo": "promys.png",
+      "organization": "MIT",
+      "organizationLogo": "",
       "description": "PROMYS is a challenging program designed to encourage ambitious high school students to explore the creative world of mathematics.",
-      "organization": "PROMYS Organization",
       "students": [
         {
           "name": "Eve Black",
@@ -98,9 +97,9 @@
       "name": "Youth Science Journal",
       "shorthand": "ysj",
       "logo": "ysj.jpg",
-      "organizationLogo": "ysj_org.jpg",
+      "organization": "STEM October",
+      "organizationLogo": "",
       "description": "YSJ offers a platform for young scientists to publish their research and engage with the scientific community.",
-      "organization": "YSJ Organization",
       "students": [
         {
           "name": "Grace Adams",
@@ -119,12 +118,36 @@
       ]
     },
     {
+      "name": "Yale Young Global Scholar",
+      "shorthand": "yygs",
+      "logo": "yygs.jpg",
+      "organization": "Yale University",
+      "organizationLogo": "",
+      "description": "YYAS is an intensive academic and enrichment program designed for African secondary school students planning to pursue tertiary education and make meaningful contributions as young leaders.",
+      "students": [
+        {
+          "name": "Ivy Green",
+          "image": "avatar.jpg",
+          "graduationYear": "2025",
+          "cohort": "Summer 2026",
+          "financialAid": "Partial Financial Aid"
+        },
+        {
+          "name": "Jack Black",
+          "image": "avatar.jpg",
+          "graduationYear": "2024",
+          "cohort": "Fall 2026",
+          "financialAid": "No Financial Aid"
+        }
+      ]
+    },
+    {
       "name": "Yale Young African Scholar",
       "shorthand": "yyas",
-      "logo": "yyas.jpg",
-      "organizationLogo": "yyas_org.jpg",
+      "logo": "yyas.png",
+      "organization": "Yale University",
+      "organizationLogo": "",
       "description": "YYAS is an intensive academic and enrichment program designed for African secondary school students planning to pursue tertiary education and make meaningful contributions as young leaders.",
-      "organization": "YYAS Organization",
       "students": [
         {
           "name": "Ivy Green",
@@ -146,9 +169,9 @@
       "name": "Competitive College Club",
       "shorthand": "ccc",
       "logo": "ccc.jpg",
-      "organizationLogo": "ccc_org.jpg",
+      "organization": "EducationUSA",
+      "organizationLogo": "",
       "description": "CCC helps high-achieving students navigate the college application process and gain admission to highly competitive colleges and universities.",
-      "organization": "CCC Organization",
       "students": [
         {
           "name": "Kate White",

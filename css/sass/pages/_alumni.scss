@@ -1,5 +1,11 @@
 .alumni-content {
   .switch {
+    .page-item button[aria-expanded="true"] {
+      z-index: 3;
+      color: var(--bs-pagination-active-color);
+      background-color: var(--bs-pagination-active-bg);
+      border-color: var(--bs-pagination-active-border-color);
+    }
   }
   .senior {
     .card-box {
