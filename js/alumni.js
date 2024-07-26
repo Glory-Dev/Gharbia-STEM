@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
 function generateAlumni(container, batches) {
   batches.forEach((batch) => {
     const batchSection = document.createElement("section");
-    batchSection.className = "senior collapse";
+    batchSection.className = "senior collapse py-1";
     batchSection.id = `senior${batch.year}`;
 
     const batchContainer = document.createElement("div");
@@ -48,7 +48,7 @@ function generateAlumni(container, batches) {
       imageCol.className = "col-md-4 image p-3";
 
       const image = document.createElement("img");
-      image.src = student.image;
+      image.src = `./../images/students/${student.image}`;
       image.className = "img-fluid rounded-3";
       image.alt = student.name;
 
@@ -62,11 +62,15 @@ function generateAlumni(container, batches) {
 
       const studentName = document.createElement("h4");
       studentName.className = "card-title lh-base";
-      studentName.textContent = student.name;
+      studentName.textContent = student.name.split(" ").length == 3 ? `${student.name.split(" ")[0]} ${student.name.split(" ")[1][0]}. ${student.name.split(" ")[2]}` : student.name;
 
-      const studentClass = document.createElement("h5");
+      const studentSeniorYear = document.createElement("h5");
+      studentSeniorYear.className = "year";
+      studentSeniorYear.textContent = `Class of ${batch.year}`;
+
+      const studentClass = document.createElement("h6");
       studentClass.className = "class";
-      studentClass.textContent = student.class;
+      studentClass.textContent = `${student.class} Section`;
 
       const classRank = document.createElement("p");
       classRank.className = "card-text rank mt-3 mb-1";
@@ -81,46 +85,47 @@ function generateAlumni(container, batches) {
 
       // Create social media links only if they exist
       if (student.socialMedia.cv) {
-        const cvLink = createSocialLink(student.socialMedia.cv, "fa-file", "CV");
+        const cvLink = createSocialLink(student.socialMedia.cv, "fa-solid fa-file", "CV");
         socialLinks.appendChild(cvLink);
       }
       if (student.socialMedia.website) {
-        const websiteLink = createSocialLink(student.socialMedia.website, "fa-globe", "Website");
+        const websiteLink = createSocialLink(student.socialMedia.website, "fa-solid fa-globe", "Website");
         socialLinks.appendChild(websiteLink);
       }
       if (student.socialMedia.email) {
-        const emailLink = createSocialLink(`mailto:${student.socialMedia.email}`, "fa-at", "Email");
+        const emailLink = createSocialLink(`mailto:${student.socialMedia.email}`, "fa-solid fa-at", "Email");
         socialLinks.appendChild(emailLink);
       }
       if (student.socialMedia.linkedin) {
-        const linkedinLink = createSocialLink(student.socialMedia.linkedin, "fa-linkedin-in", "LinkedIn");
+        const linkedinLink = createSocialLink(student.socialMedia.linkedin, "fab fa-linkedin-in", "LinkedIn");
         socialLinks.appendChild(linkedinLink);
       }
       if (student.socialMedia.facebook) {
-        const facebookLink = createSocialLink(student.socialMedia.facebook, "fa-facebook", "Facebook");
+        const facebookLink = createSocialLink(student.socialMedia.facebook, "fab fa-facebook", "Facebook");
         socialLinks.appendChild(facebookLink);
       }
       if (student.socialMedia.instagram) {
-        const instagramLink = createSocialLink(student.socialMedia.instagram, "fa-instagram", "Instagram");
+        const instagramLink = createSocialLink(student.socialMedia.instagram, "fab fa-instagram", "Instagram");
         socialLinks.appendChild(instagramLink);
       }
 
       cardBody.appendChild(studentName);
+      cardBody.appendChild(studentSeniorYear);
       cardBody.appendChild(studentClass);
       cardBody.appendChild(classRank);
       cardBody.appendChild(nationalRank);
-      cardBody.appendChild(socialLinks);
       infoCol.appendChild(cardBody);
       frontRow.appendChild(imageCol);
       frontRow.appendChild(infoCol);
       frontCard.appendChild(frontRow);
+      frontCard.appendChild(socialLinks);
 
       // Back card
       const backCard = document.createElement("div");
       backCard.className = "card back mx-auto mb-3 py-3 primary-bg text-center";
 
       const universityLogo = document.createElement("img");
-      universityLogo.src = student.university.logo;
+      universityLogo.src = `./../images/organizations/${student.university.logo}`;
       universityLogo.className = "img-fluid mx-auto";
       universityLogo.alt = student.university.name;
 
@@ -170,7 +175,8 @@ function createSocialLink(url, iconClass, title) {
   link.target = "_blank";
   link.title = title;
   link.rel = "noopener noreferrer";
-  link.innerHTML = `<i class="fa-xl fa-solid ${iconClass}"></i>`;
+  console.log(title)
+  link.innerHTML = `<i class="fa-xl ${iconClass}"></i>`;
   listItem.appendChild(link);
   return listItem;
 }
@@ -185,7 +191,7 @@ function generateBatchSwitcher(batches) {
   classOfText.innerHTML = '<p class="page-link bg-transparent text-white">Class of</p>';
   pagination.appendChild(classOfText);
 
-  let lastBatchYear = '';
+  let lastBatchYear = "";
 
   batches.forEach((batch) => {
     const batchItem = document.createElement("li");

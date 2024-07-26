@@ -5,12 +5,12 @@
       "students": [
         {
           "name": "John Doe",
-          "image": "path/to/john_doe_image.jpg",
+          "image": "mohamed emad.png",
           "class": "Math",
           "classRank": "1st",
           "nationalRank": "5th",
           "socialMedia": {
-            "cv": "path/to/john_doe_cv.pdf",
+            "cv": "john_doe_cv.pdf",
             "website": "https://johnswebsite.com",
             "email": "john.doe@example.com",
             "linkedin": "https://linkedin.com/in/johndoe",
@@ -18,7 +18,7 @@
             "instagram": "https://instagram.com/johndoe"
           },
           "university": {
-            "logo": "path/to/university_logo.jpg",
+            "logo": "university_logo.jpg",
             "name": "Harvard University",
             "classYear": 2024,
             "major": "Computer Science",
@@ -27,12 +27,12 @@
         },
         {
           "name": "Jane Smith",
-          "image": "path/to/jane_smith_image.jpg",
+          "image": "jane_smith_image.jpg",
           "class": "Medical",
           "classRank": "2nd",
           "nationalRank": "10th",
           "socialMedia": {
-            "cv": "path/to/jane_smith_cv.pdf",
+            "cv": "jane_smith_cv.pdf",
             "website": null,
             "email": "jane.smith@example.com",
             "linkedin": "https://linkedin.com/in/janesmith",
@@ -40,7 +40,7 @@
             "instagram": "https://instagram.com/janesmith"
           },
           "university": {
-            "logo": "path/to/university_logo.jpg",
+            "logo": "university_logo.jpg",
             "name": "Stanford University",
             "classYear": 2024,
             "major": "Biology",
@@ -54,7 +54,7 @@
       "students": [
         {
           "name": "Alice Johnson",
-          "image": "path/to/alice_johnson_image.jpg",
+          "image": "alice_johnson_image.jpg",
           "class": "Math",
           "classRank": "3rd",
           "nationalRank": "15th",
@@ -67,7 +67,7 @@
             "instagram": null
           },
           "university": {
-            "logo": "path/to/university_logo.jpg",
+            "logo": "university_logo.jpg",
             "name": "MIT",
             "classYear": 2025,
             "major": "Mathematics",
@@ -76,12 +76,12 @@
         },
         {
           "name": "Bob Brown",
-          "image": "path/to/bob_brown_image.jpg",
+          "image": "bob_brown_image.jpg",
           "class": "Medical",
           "classRank": "1st",
           "nationalRank": "3rd",
           "socialMedia": {
-            "cv": "path/to/bob_brown_cv.pdf",
+            "cv": "bob_brown_cv.pdf",
             "website": "https://bobbrown.com",
             "email": "bob.brown@example.com",
             "linkedin": null,
@@ -89,7 +89,7 @@
             "instagram": "https://instagram.com/bobbrown"
           },
           "university": {
-            "logo": "path/to/university_logo.jpg",
+            "logo": "university_logo.jpg",
             "name": "Yale University",
             "classYear": 2025,
             "major": "Medicine",
@@ -103,12 +103,12 @@
       "students": [
         {
           "name": "Charlie Davis",
-          "image": "path/to/charlie_davis_image.jpg",
+          "image": "charlie_davis_image.jpg",
           "class": "Math",
           "classRank": "4th",
           "nationalRank": "20th",
           "socialMedia": {
-            "cv": "path/to/charlie_davis_cv.pdf",
+            "cv": "charlie_davis_cv.pdf",
             "website": null,
             "email": "charlie.davis@example.com",
             "linkedin": "https://linkedin.com/in/charliedavis",
@@ -116,7 +116,7 @@
             "instagram": "https://instagram.com/charliedavis"
           },
           "university": {
-            "logo": "path/to/university_logo.jpg",
+            "logo": "university_logo.jpg",
             "name": "Princeton University",
             "classYear": 2026,
             "major": "Physics",
@@ -129,13 +129,13 @@
       "year": 2023,
       "students": [
         {
-          "name": "Emily Evans",
-          "image": "path/to/emily_evans_image.jpg",
+          "name": "Mohamed Emad Soliman",
+          "image": "mohamed emad.png",
           "class": "Medical",
           "classRank": "1st",
           "nationalRank": "1st",
           "socialMedia": {
-            "cv": "path/to/emily_evans_cv.pdf",
+            "cv": "",
             "website": "https://emilyevans.com",
             "email": "emily.evans@example.com",
             "linkedin": "https://linkedin.com/in/emilyevans",
@@ -143,7 +143,7 @@
             "instagram": "https://instagram.com/emilyevans"
           },
           "university": {
-            "logo": "path/to/university_logo.jpg",
+            "logo": "w&l.svg",
             "name": "University of Oxford",
             "classYear": 2027,
             "major": "Neuroscience",
