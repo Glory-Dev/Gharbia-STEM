@@ -4,7 +4,6 @@
 // Helpers
 @import "./sass/helpers/variables";
 @import "./sass/helpers/mixins";
-@import "./sass/helpers/functions";
 // Components
 @import "./sass/components/classes";
 @import "./sass/components/heading-text";
@@ -15,11 +14,13 @@
 @import "./sass/layout/global-rules";
 body {
   // Layout
-  @import "./sass/layout/loading";
   @import "./sass/layout/navbar";
   @import "./sass/layout/footer";
   // Pages
   @import "./sass/pages/home";
+  @import "./sass/pages/admission";
+  @import "./sass/pages/alumni";
+  @import "./sass/pages/contact";
   //-- About
   @import "./sass/pages/about";
   @import "./sass/pages/about/virtual-tour";
@@ -34,8 +35,4 @@ body {
   @import "./sass/pages/extracurriculars/activities";
   @import "./sass/pages/extracurriculars/programs";
   @import "./sass/pages/extracurriculars/awards-honors";
-  //-- Others
-  @import "./sass/pages/admission";
-  @import "./sass/pages/alumni";
-  @import "./sass/pages/contact";
 }

@@ -36,3 +36,102 @@ html {
     background-color: transparent;
   }
 }
+
+body > {
+  // Pre-loader
+  .preloader {
+    $spinner-width: 200px;
+    $border-width: 5px;
+    $border-width-2: $border-width * 2;
+    $spinner-width-2: $spinner-width + 50px;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1000;
+    background-color: $dark-blue;
+    background-image: linear-gradient(0deg, $dark-off-black, $dark-blue);
+    transition: none;
+    &.loaded {
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 1s, visibility 1s;
+    }
+
+    @keyframes spinner {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
+    > .spin {
+      width: $spinner-width;
+      height: $spinner-width;
+      position: relative;
+      border: $border-width solid blue;
+      border-style: solid dotted;
+      border-radius: 50%;
+      animation: spinner 1s linear infinite;
+
+      &::before,
+      &::after {
+        content: "";
+        position: absolute;
+        border-radius: 50%;
+        background-color: transparent;
+      }
+      &::before {
+        width: $spinner-width-2;
+        height: $spinner-width-2;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border: $border-width-2 solid white;
+        border-bottom-color: transparent;
+      }
+      &::after {
+        bottom: -(calc($border-width-2 - 3px));
+        right: $border-width-2;
+        padding: 3px;
+        border: calc($border-width-2 - 5px) solid white;
+      }
+    }
+  }
+
+  // Scroll To Top
+  .scroll-top {
+    $size: 40px;
+
+    position: fixed;
+    bottom: 20px;
+    right: -100px;
+    width: $size;
+    height: $size;
+    z-index: 1200;
+    cursor: pointer;
+    transition: right 0.5s;
+    color: $dark-off-black;
+    background-color: white;
+    &.show {
+      right: 20px;
+    }
+
+    svg {
+      animation: scroll-scale infinite ease 2s;
+      @keyframes scroll-scale {
+        0%,
+        100% {
+          transform: scale(1);
+        }
+        50% {
+          transform: scale(1.3);
+        }
+      }
+    }
+  }
+}
