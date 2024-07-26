@@ -5,6 +5,13 @@ window.onload = function () {
   preloader.classList.add("loaded");
 };
 
+// Scroll To Top
+const scrollToTop = document.querySelector("body > .scroll-top");
+
+window.addEventListener("scroll", () => (scrollY >= 1300 ? scrollToTop.classList.add("show") : scrollToTop.classList.remove("show")));
+
+scrollToTop.addEventListener("click", () => window.scrollTo({ top: 0, behavior: "smooth" }));
+
 // Navbar
 const navbar = document.querySelector("body > .navbar .navbar-links");
 const navbarToggler = document.querySelector("body > .navbar .menu-icon");
