@@ -9,6 +9,12 @@
       }
     }
   }
+  .universities {
+    img {
+      width: auto;
+      heigth: auto; 
+    }
+  }
   > .switch {
     .page-item button[aria-expanded="true"] {
       z-index: 3;
