@@ -4,25 +4,27 @@
 - [x] Navbar component
 - [x] Footer component
 - [x] Home Page
-- [ ] About
-  - [ ] Main Page (Staff Section)
-  - [ ] Virtual Tour
-  - [ ] Faculty & Staff
+- [x] About
+  - [x] Main Page (Staff Section)
+  - [x] Virtual Tour
+  - [x] Faculty & Staff
   - [x] Dorm
-  - [ ] Facilities (Labs Gallery & Activity Rooms)
-- [ ] ECs
+  - [x] Facilities
+- [x] ECs
   - [x] Main Page
-  - [ ] Clubs & Teams
-  - [ ] Programs & Activities
-  - [ ] Awards & Honors
+  - [x] Clubs & Teams
+  - [x] Programs & Activities
+  - [x] Awards & Honors
 - [x] Academics
   - [x] Main Page
   - [x] Materials Page
 - [x] Admission Page
-- [ ] Alumni Page
-- [ ] Contact Page
+- [x] Alumni Page
+- [x] Contact Page
 
-## Recommendations
+- [ ] Adding Content
+
+## Recommendations/Suggestions
 
 - [x] Loading Screen
 - [ ] Virtual Tour
