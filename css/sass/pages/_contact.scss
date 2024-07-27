@@ -23,28 +23,28 @@
   }
   .col {
     max-width: 350px;
-  }
-  .card {
-    position: relative;
-    border: none;
+    .card {
+      position: relative;
+      border: none;
 
-    > img {
-      z-index: 3;
+      > img {
+        z-index: 3;
+      }
+
+      .card-body {
+        z-index: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+      }
     }
 
-    .card-body {
-      z-index: 0;
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      
-      &.show-left {
-        left: calc(-100% - 20px);
-      }
-      &.show-right {
-        left: calc(100% + 20px);
-      }
+    &:first-of-type .card .card-body {
+      left: calc(-100% - 20px);
+    }
+    &:last-of-type .card .card-body {
+      left: calc(100% + 20px);
     }
   }
 }

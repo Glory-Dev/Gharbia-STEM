@@ -3,139 +3,300 @@
     {
       "name": "John Doe",
       "profession": "Manager",
-      "image": "manager.jpg",
+      "image": "avatar.jpg",
+      "phone": "555-1234",
+      "email": "john.doe@example.com",
+      "socialMedia": {
+        "linkedin": "https://linkedin.com/in/johndoe",
+        "facebook": "https://facebook.com/johndoe",
+        "twitter": "https://twitter.com/johndoe"
+      },
       "committees": ["management", "financial"]
     },
     {
       "name": "Jane Smith",
       "profession": "Assistant Manager",
-      "image": "assistant_manager.jpg",
+      "image": "avatar.jpg",
+      "phone": "555-5678",
+      "email": "jane.smith@example.com",
+      "socialMedia": {
+        "linkedin": "https://linkedin.com/in/janesmith",
+        "facebook": "https://facebook.com/janesmith",
+        "twitter": "https://twitter.com/janesmith"
+      },
       "committees": ["management"]
     },
     {
       "name": "Alice Johnson",
       "profession": "Financial Advisor",
       "image": "financial_advisor.jpg",
+      "phone": "555-8765",
+      "email": "alice.johnson@example.com",
+      "socialMedia": {
+        "linkedin": "https://linkedin.com/in/alicejohnson",
+        "facebook": "https://facebook.com/alicejohnson",
+        "twitter": "https://twitter.com/alicejohnson"
+      },
       "committees": ["financial"]
     },
     {
       "name": "Bob Brown",
       "profession": "Accountant",
       "image": "accountant.jpg",
+      "phone": "555-4321",
+      "email": "bob.brown@example.com",
+      "socialMedia": {
+        "linkedin": "https://linkedin.com/in/bobbrown",
+        "facebook": "https://facebook.com/bobbrown",
+        "twitter": "https://twitter.com/bobbrown"
+      },
       "committees": ["financial"]
     },
     {
       "name": "Charlie Davis",
       "profession": "Dorm Supervisor",
       "image": "dorm_supervisor.jpg",
+      "phone": "555-6543",
+      "email": "charlie.davis@example.com",
+      "socialMedia": {
+        "linkedin": "https://linkedin.com/in/charliedavis",
+        "facebook": "https://facebook.com/charliedavis",
+        "twitter": "https://twitter.com/charliedavis"
+      },
       "committees": ["dorm"]
     },
     {
       "name": "Emily Wilson",
       "profession": "Chief",
       "image": "chief.jpg",
+      "phone": "555-7890",
+      "email": "emily.wilson@example.com",
+      "socialMedia": {
+        "linkedin": "https://linkedin.com/in/emilywilson",
+        "facebook": "https://facebook.com/emilywilson",
+        "twitter": "https://twitter.com/emilywilson"
+      },
       "committees": ["chief"]
     },
     {
       "name": "Fadi Ahmed",
       "profession": "Arabic Teacher",
       "image": "arabic_teacher.jpg",
+      "phone": "555-9876",
+      "email": "fadi.ahmed@example.com",
+      "socialMedia": {
+        "linkedin": "https://linkedin.com/in/fadiahmed",
+        "facebook": "https://facebook.com/fadiahmed",
+        "twitter": "https://twitter.com/fadiahmed"
+      },
       "committees": ["arabic"]
     },
     {
       "name": "Grace Lee",
       "profession": "English Teacher",
       "image": "english_teacher.jpg",
+      "phone": "555-6542",
+      "email": "grace.lee@example.com",
+      "socialMedia": {
+        "linkedin": "https://linkedin.com/in/gracelee",
+        "facebook": "https://facebook.com/gracelee",
+        "twitter": "https://twitter.com/gracelee"
+      },
       "committees": ["english"]
     },
     {
       "name": "Henry Kim",
       "profession": "Math Teacher",
       "image": "math_teacher.jpg",
+      "phone": "555-3210",
+      "email": "henry.kim@example.com",
+      "socialMedia": {
+        "linkedin": "https://linkedin.com/in/henrykim",
+        "facebook": "https://facebook.com/henrykim",
+        "twitter": "https://twitter.com/henrykim"
+      },
       "committees": ["mathematics"]
     },
     {
       "name": "Isabella Martinez",
       "profession": "Biology Teacher",
       "image": "biology_teacher.jpg",
+      "phone": "555-1230",
+      "email": "isabella.martinez@example.com",
+      "socialMedia": {
+        "linkedin": "https://linkedin.com/in/isabellamartinez",
+        "facebook": "https://facebook.com/isabellamartinez",
+        "twitter": "https://twitter.com/isabellamartinez"
+      },
       "committees": ["biology"]
     },
     {
       "name": "Jack Chen",
       "profession": "Earth Science Teacher",
       "image": "earth_science_teacher.jpg",
+      "phone": "555-7891",
+      "email": "jack.chen@example.com",
+      "socialMedia": {
+        "linkedin": "https://linkedin.com/in/jackchen",
+        "facebook": "https://facebook.com/jackchen",
+        "twitter": "https://twitter.com/jackchen"
+      },
       "committees": ["earth science"]
     },
     {
       "name": "Karen Lopez",
       "profession": "Chemistry Teacher",
       "image": "chemistry_teacher.jpg",
+      "phone": "555-4567",
+      "email": "karen.lopez@example.com",
+      "socialMedia": {
+        "linkedin": "https://linkedin.com/in/karenlopez",
+        "facebook": "https://facebook.com/karenlopez",
+        "twitter": "https://twitter.com/karenlopez"
+      },
       "committees": ["chemistry"]
     },
     {
       "name": "Liam Patel",
       "profession": "Physics Teacher",
       "image": "physics_teacher.jpg",
+      "phone": "555-6549",
+      "email": "liam.patel@example.com",
+      "socialMedia": {
+        "linkedin": "https://linkedin.com/in/liampatel",
+        "facebook": "https://facebook.com/liampatel",
+        "twitter": "https://twitter.com/liampatel"
+      },
       "committees": ["physics"]
     },
     {
       "name": "Mia Clark",
       "profession": "Social Studies Teacher",
       "image": "social_studies_teacher.jpg",
+      "phone": "555-4329",
+      "email": "mia.clark@example.com",
+      "socialMedia": {
+        "linkedin": "https://linkedin.com/in/miaclark",
+        "facebook": "https://facebook.com/miaclark",
+        "twitter": "https://twitter.com/miaclark"
+      },
       "committees": ["social studies"]
     },
     {
       "name": "Noah Gonzalez",
       "profession": "Spanish Teacher",
       "image": "spanish_teacher.jpg",
+      "phone": "555-9875",
+      "email": "noah.gonzalez@example.com",
+      "socialMedia": {
+        "linkedin": "https://linkedin.com/in/noahgonzalez",
+        "facebook": "https://facebook.com/noahgonzalez",
+        "twitter": "https://twitter.com/noahgonzalez"
+      },
       "committees": ["second language"]
     },
     {
       "name": "Olivia Harris",
       "profession": "Computer Science Teacher",
       "image": "computer_science_teacher.jpg",
+      "phone": "555-4321",
+      "email": "olivia.harris@example.com",
+      "socialMedia": {
+        "linkedin": "https://linkedin.com/in/oliviaharris",
+        "facebook": "https://facebook.com/oliviaharris",
+        "twitter": "https://twitter.com/oliviaharris"
+      },
       "committees": ["computer science"]
     },
     {
       "name": "Paul Martinez",
       "profession": "Activities Coordinator",
       "image": "activities_coordinator.jpg",
+      "phone": "555-6789",
+      "email": "paul.martinez@example.com",
+      "socialMedia": {
+        "linkedin": "https://linkedin.com/in/paulmartinez",
+        "facebook": "https://facebook.com/paulmartinez",
+        "twitter": "https://twitter.com/paulmartinez"
+      },
       "committees": ["activities"]
     },
     {
       "name": "Quinn Walker",
       "profession": "Counselor",
       "image": "counselor.jpg",
+      "phone": "555-3456",
+      "email": "quinn.walker@example.com",
+      "socialMedia": {
+        "linkedin": "https://linkedin.com/in/quinnwalker",
+        "facebook": "https://facebook.com/quinnwalker",
+        "twitter": "https://twitter.com/quinnwalker"
+      },
       "committees": ["counseling"]
     },
     {
       "name": "Rachel Young",
       "profession": "Capstone Project Advisor",
       "image": "capstone_advisor.jpg",
+      "phone": "555-6548",
+      "email": "rachel.young@example.com",
+      "socialMedia": {
+        "linkedin": "https://linkedin.com/in/rachelyoung",
+        "facebook": "https://facebook.com/rachelyoung",
+        "twitter": "https://twitter.com/rachelyoung"
+      },
       "committees": ["capstone"]
     },
     {
       "name": "Sam Carter",
       "profession": "Fab Lab Coordinator",
       "image": "fab_lab_coordinator.jpg",
+      "phone": "555-4563",
+      "email": "sam.carter@example.com",
+      "socialMedia": {
+        "linkedin": "https://linkedin.com/in/samcarter",
+        "facebook": "https://facebook.com/samcarter",
+        "twitter": "https://twitter.com/samcarter"
+      },
       "committees": ["fab lab"]
     },
     {
       "name": "Tina Adams",
       "profession": "IT Specialist",
       "image": "it_specialist.jpg",
+      "phone": "555-9873",
+      "email": "tina.adams@example.com",
+      "socialMedia": {
+        "linkedin": "https://linkedin.com/in/tinaadams",
+        "facebook": "https://facebook.com/tinaadams",
+        "twitter": "https://twitter.com/tinaadams"
+      },
       "committees": ["IT"]
     },
     {
       "name": "Uma Thompson",
       "profession": "Social Worker",
       "image": "social_worker.jpg",
+      "phone": "555-6541",
+      "email": "uma.thompson@example.com",
+      "socialMedia": {
+        "linkedin": "https://linkedin.com/in/umathompson",
+        "facebook": "https://facebook.com/umathompson",
+        "twitter": "https://twitter.com/umathompson"
+      },
       "committees": ["social worker"]
     },
     {
       "name": "Victor Nguyen",
       "profession": "Psychologist",
       "image": "psychologist.jpg",
+      "phone": "555-3457",
+      "email": "victor.nguyen@example.com",
+      "socialMedia": {
+        "linkedin": "https://linkedin.com/in/victornguyen",
+        "facebook": "https://facebook.com/victornguyen",
+        "twitter": "https://twitter.com/victornguyen"
+      },
       "committees": ["psychologist"]
     }
   ]
