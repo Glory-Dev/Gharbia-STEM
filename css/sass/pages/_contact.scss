@@ -18,7 +18,32 @@
         position: absolute;
         bottom: 10px;
         left: 10px;
-        
+      }
+    }
+  }
+  .col {
+    max-width: 350px;
+  }
+  .card {
+    position: relative;
+    border: none;
+
+    > img {
+      z-index: 3;
+    }
+
+    .card-body {
+      z-index: 0;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      
+      &.show-left {
+        left: calc(-100% - 20px);
+      }
+      &.show-right {
+        left: calc(100% + 20px);
       }
     }
   }
