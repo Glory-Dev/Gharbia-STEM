@@ -13,12 +13,14 @@ function generateCompetitions(container, competitions) {
   competitions.forEach((competition) => {
     const competitionSection = document.createElement("section");
     competitionSection.className = "competition mb-3";
+    competitionSection.setAttribute("data-aos", "fade-left")
 
     const competitionContainer = document.createElement("div");
     competitionContainer.className = "container rounded-4 secondary-bg overflow-hidden";
 
     const card = document.createElement("div");
     card.className = "card secondary-bg text-white border-0";
+
 
     const headerRow = document.createElement("div");
     headerRow.className = "row no-gutters header";

@@ -14,6 +14,7 @@ function generateProgramSections(container, programs) {
     // Create section for the program
     const programSection = document.createElement("section");
     programSection.className = "program mb-3";
+    programSection.setAttribute("data-aos", "fade-left")
 
     const programContainer = document.createElement("div");
     programContainer.className = "container rounded-4 secondary-bg overflow-hidden";
