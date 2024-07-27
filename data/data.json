@@ -24,7 +24,7 @@
         "facebook": "https://facebook.com/janesmith",
         "twitter": "https://twitter.com/janesmith"
       },
-      "committees": ["management"]
+      "committees": ["management", "council"]
     },
     {
       "name": "Alice Johnson",
@@ -42,7 +42,7 @@
     {
       "name": "Bob Brown",
       "profession": "Accountant",
-      "image": "accountant.jpg",
+      "image": "avatar.jpg",
       "phone": "555-4321",
       "email": "bob.brown@example.com",
       "socialMedia": {
@@ -50,12 +50,12 @@
         "facebook": "https://facebook.com/bobbrown",
         "twitter": "https://twitter.com/bobbrown"
       },
-      "committees": ["financial"]
+      "committees": ["financial", "council"]
     },
     {
       "name": "Charlie Davis",
       "profession": "Dorm Supervisor",
-      "image": "dorm_supervisor.jpg",
+      "image": "avatar.jpg",
       "phone": "555-6543",
       "email": "charlie.davis@example.com",
       "socialMedia": {
@@ -63,7 +63,7 @@
         "facebook": "https://facebook.com/charliedavis",
         "twitter": "https://twitter.com/charliedavis"
       },
-      "committees": ["dorm"]
+      "committees": ["dorm", "council"]
     },
     {
       "name": "Emily Wilson",

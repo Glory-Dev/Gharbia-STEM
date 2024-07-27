@@ -21,30 +21,60 @@
       }
     }
   }
+
   .col {
     max-width: 350px;
+
     .card {
-      position: relative;
-      border: none;
-
-      > img {
-        z-index: 3;
+      border-radius: 1rem;
+      @media (min-width: 992px) {
+        align-items: center;
       }
 
-      .card-body {
-        z-index: 0;
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
+      > img,
+      > .card-body {
+        border-radius: 1rem;
+      }
+
+      > .card-body {
+        margin-top: 1.5rem;
+        padding: 1.5rem;
       }
     }
+  }
 
-    &:first-of-type .card .card-body {
-      left: calc(-100% - 20px);
+  .reach {
+    @media (min-width: 1400px) {
+      .col {
+        .card {
+          position: relative;
+          border: none;
+
+          > img {
+            z-index: 3;
+          }
+
+          > .card-body {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+          }
+        }
+
+        &:first-of-type .card .card-body {
+          left: calc(-100% - 20px);
+        }
+        &:last-of-type .card .card-body {
+          left: calc(100% + 20px);
+        }
+      }
     }
-    &:last-of-type .card .card-body {
-      left: calc(100% + 20px);
+  }
+
+  .web-team {
+    .col {
+      max-width: 420px;
     }
   }
 }
