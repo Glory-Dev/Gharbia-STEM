@@ -5,12 +5,16 @@
 
 // Table
 .table-colored {
-  tr {
+  thead > tr,
+  tbody > tr {
     &:nth-of-type(even) {
       background-color: $dark-blue;
     }
     &:nth-of-type(odd) {
       background-color: $light-blue;
+    }
+    &:only-of-type {
+      background-color: $dark-blue;
     }
 
     td,

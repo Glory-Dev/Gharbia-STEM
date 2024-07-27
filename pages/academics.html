@@ -22,7 +22,7 @@
       <div class="container-fluid px-5 justify-content-between">
         <a class="navbar-brand d-flex align-items-center text-white fs-3 fw-bold fst-italic" href="./../"><img class="logo me-2" src="./../images/logo.png" alt="Logo" /> Gharbiya STEM</a>
         <button class="menu-icon" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation"><span></span><span></span><span></span></button>
-        <div class="collapse navbar-collapse navbar-links flex-grow-0"  id="navbarNavDarkDropdown">
+        <div class="collapse navbar-collapse navbar-links flex-grow-0" id="navbarNavDarkDropdown">
           <ul class="main-links text-white d-flex flex-row">
             <li class="nav-item px-3">
               <a class="nav-link active" href="./../">Home</a>
@@ -42,8 +42,8 @@
                     <div class="mb-4 mb-lg-0 col-md-5 col-lg-3 col-xl-2">
                       <h5 class="text-white mb-4 text-decoration-underline"><a href="./about.html">About</a></h5>
                       <ul>
-                        <li><a href="#stemEducation">STEM Education</a></li>
-                        <li><a href="#missionAndVision">Mission & Vision</a></li>
+                        <li><a href="./about.html#stemEducation">STEM Education</a></li>
+                        <li><a href="./about.html#missionAndVision">Mission & Vision</a></li>
                         <li><a href="./about/virtual-tour.html">Virtual Tour</a></li>
                         <li><a href="./about/faculty.html">Faculty & Staff</a></li>
                         <li><a href="./about/facilities.html">Facilities</a></li>
@@ -53,9 +53,9 @@
                     <div class="mb-4 mb-lg-0 col-md-5 col-lg-3 col-xl-2">
                       <h5 class="text-white mb-4 text-decoration-underline"><a href="./academics.html">Academics</a></h5>
                       <ul>
-                        <li><a href="./academics.html">Academic Subjects</a></li>
-                        <li><a href="./academics.html">Capstone Projects</a></li>
-                        <li><a href="./academics.html">Grade Distribution</a></li>
+                        <li><a href="./academics.html#academicSubjects">Academic Subjects</a></li>
+                        <li><a href="./academics.html#academicCapstone">Capstone Projects</a></li>
+                        <li><a href="./academics.html#academicGradeDist">Grade Distribution</a></li>
                         <li><a href="./academics/materials.html">Academic Materials</a></li>
                       </ul>
                     </div>
@@ -115,7 +115,7 @@
       <!-- END Applied Learning -->
 
       <!-- START Subjects -->
-      <section class="subjects py-5" id="subjects">
+      <section class="subjects py-5" id="academicSubjects">
         <div class="container text-center">
           <h2 class="fw-light">Academic Subjects</h2>
           <p class="fs-4">Our core curriculum consists of a variety of science, mathematics, and humanities subjects which all students are required to take.</p>
@@ -216,7 +216,7 @@
       <!-- END Subjects -->
 
       <!-- START Capstone -->
-      <section class="capstone sub-section" id="capstone">
+      <section class="capstone sub-section" id="academicCapstone">
         <div class="box primary-bg">
           <div class="container right" data-aos="fade-right">
             <div class="image">
@@ -238,7 +238,7 @@
           </p>
           <table class="table table-responsive table-colored table-center align-middle table-borderless mt-5">
             <thead>
-              <tr class="primary-bg">
+              <tr>
                 <th scope="col">Capstone Part</th>
                 <th scope="col">Score Percentage</th>
               </tr>
@@ -262,11 +262,17 @@
               </tr>
             </tbody>
           </table>
+        </div>
+      </section>
+      <!-- END capstone -->
 
+      <!-- START Grade Distribution -->
+      <section class="grade-dis pb-5 text-center" id="academicGradeDist">
+        <div class="container">
           <h2 class="mt-5">Total Grade Distribution</h2>
           <table class="table table-responsive table-colored table-center align-middle table-borderless mt-5">
             <thead>
-              <tr class="primary-bg">
+              <tr>
                 <th scope="col">Grade</th>
                 <th scope="col">Percentage Range</th>
               </tr>
@@ -312,7 +318,7 @@
           </table>
         </div>
       </section>
-      <!-- END capstone -->
+      <!-- END Grade Distribution -->
 
       <!-- START Materials -->
       <section class="materials sub-section">
@@ -406,7 +412,7 @@
     </footer>
     <!-- End Footer -->
 
-        <!-- Scroll To Top -->
+    <!-- Scroll To Top -->
     <button class="scroll-top d-flex justify-content-center align-items-center rounded-3" type="button"><i class="fa-lg fa-solid fa-arrow-up"></i></button>
 
     <!-- Loading -->
@@ -415,6 +421,7 @@
     <!-- Script -->
     <script src="./../server.js"></script>
     <script src="./../js/libs/aos.js"></script>
+    <script src="./../js/libs/aos.config.js"></script>
     <script src="./../js/bootstrap.bundle.min.js"></script>
     <script src="./../js/libs/font-awesome.min.js"></script>
     <script src="./../js/main.js"></script>

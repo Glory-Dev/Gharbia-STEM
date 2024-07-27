@@ -19,8 +19,9 @@
     .page-item button[aria-expanded="true"] {
       z-index: 3;
       color: var(--bs-pagination-active-color);
-      background-color: var(--bs-pagination-active-bg);
-      border-color: var(--bs-pagination-active-border-color);
+      background-color: $dark-blue;
+      border-color: $light-blue;
+      box-shadow: 0 0 0 0.25rem rgba($light-blue, 0.3)
     }
   }
   > .senior {

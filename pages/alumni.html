@@ -22,7 +22,7 @@
       <div class="container-fluid px-5 justify-content-between">
         <a class="navbar-brand d-flex align-items-center text-white fs-3 fw-bold fst-italic" href="./../"><img class="me-2 logo" src="./../images/logo.png" alt="Logo" /> Gharbiya STEM</a>
         <button class="menu-icon" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation"><span></span><span></span><span></span></button>
-        <div class="collapse navbar-collapse navbar-links flex-grow-0"  id="navbarNavDarkDropdown">
+        <div class="collapse navbar-collapse navbar-links flex-grow-0" id="navbarNavDarkDropdown">
           <ul class="main-links text-white d-flex flex-row">
             <li class="nav-item px-3">
               <a class="nav-link active" href="./../">Home</a>
@@ -42,8 +42,8 @@
                     <div class="mb-4 mb-lg-0 col-md-5 col-lg-3 col-xl-2">
                       <h5 class="text-white mb-4 text-decoration-underline"><a href="./about.html">About</a></h5>
                       <ul>
-                        <li><a href="#stemEducation">STEM Education</a></li>
-                        <li><a href="#missionAndVision">Mission & Vision</a></li>
+                        <li><a href="./about.html#stemEducation">STEM Education</a></li>
+                        <li><a href="./about.html#missionAndVision">Mission & Vision</a></li>
                         <li><a href="./about/virtual-tour.html">Virtual Tour</a></li>
                         <li><a href="./about/faculty.html">Faculty & Staff</a></li>
                         <li><a href="./about/facilities.html">Facilities</a></li>
@@ -53,9 +53,9 @@
                     <div class="mb-4 mb-lg-0 col-md-5 col-lg-3 col-xl-2">
                       <h5 class="text-white mb-4 text-decoration-underline"><a href="./academics.html">Academics</a></h5>
                       <ul>
-                        <li><a href="./academics.html">Academic Subjects</a></li>
-                        <li><a href="./academics.html">Capstone Projects</a></li>
-                        <li><a href="./academics.html">Grade Distribution</a></li>
+                        <li><a href="./academics.html#academicSubjects">Academic Subjects</a></li>
+                        <li><a href="./academics.html#academicCapstone">Capstone Projects</a></li>
+                        <li><a href="./academics.html#academicGradeDist">Grade Distribution</a></li>
                         <li><a href="./academics/materials.html">Academic Materials</a></li>
                       </ul>
                     </div>
@@ -104,13 +104,16 @@
       <!-- START Universities -->
       <section class="universities primary-bg py-5">
         <div class="container">
-          <div class="row gy-3 align-items-center text-center">
-            <div class="col-lg-2 col-md-4 col-sm-6 box"><img src="./../images/organizations/tech-1.png" alt="Sponser" /></div>
-            <div class="col-lg-2 col-md-4 col-sm-6 box"><img src="./../images/organizations/tech-2.png" alt="Sponser" /></div>
-            <div class="col-lg-2 col-md-4 col-sm-6 box"><img src="./../images/organizations/tech-3.png" alt="Sponser" /></div>
-            <div class="col-lg-2 col-md-4 col-sm-6 box"><img src="./../images/organizations/tech-4.png" alt="Sponser" /></div>
-            <div class="col-lg-2 col-md-4 col-sm-6 box"><img src="./../images/organizations/tech-1.png" alt="Sponser" /></div>
-            <div class="col-lg-2 col-md-4 col-sm-6 box"><img src="./../images/organizations/tech-2.png" alt="Sponser" /></div>
+          <div class="row align-items-center text-center gy-5 gx-4">
+            <div class="col-lg-2 col-md-4 col-sm-6"><img src="./../images/organizations/tech-1.png" alt="Sponser" /></div>
+            <div class="col-lg-2 col-md-4 col-sm-6"><img src="./../images/organizations/tech-2.png" alt="Sponser" /></div>
+            <div class="col-lg-2 col-md-4 col-sm-6"><img src="./../images/organizations/tech-3.png" alt="Sponser" /></div>
+            <div class="col-lg-2 col-md-4 col-sm-6"><img src="./../images/organizations/tech-4.png" alt="Sponser" /></div>
+            <div class="col-lg-2 col-md-4 col-sm-6"><img src="./../images/organizations/tech-1.png" alt="Sponser" /></div>
+            <div class="col-lg-2 col-md-4 col-sm-6"><img src="./../images/organizations/tech-1.png" alt="Sponser" /></div>
+            <div class="col-lg-2 col-md-4 col-sm-6"><img src="./../images/organizations/tech-2.png" alt="Sponser" /></div>
+            <div class="col-lg-2 col-md-4 col-sm-6"><img src="./../images/organizations/tech-1.png" alt="Sponser" /></div>
+            <div class="col-lg-2 col-md-4 col-sm-6"><img src="./../images/organizations/tech-4.png" alt="Sponser" /></div>
           </div>
         </div>
       </section>
@@ -209,7 +212,7 @@
     </footer>
     <!-- End Footer -->
 
-        <!-- Scroll To Top -->
+    <!-- Scroll To Top -->
     <button class="scroll-top d-flex justify-content-center align-items-center rounded-3" type="button"><i class="fa-lg fa-solid fa-arrow-up"></i></button>
 
     <!-- Loading -->
@@ -217,6 +220,7 @@
 
     <!-- Script -->
     <script src="./../js/libs/aos.js"></script>
+    <script src="./../js/libs/aos.config.js"></script>
     <script src="./../js/bootstrap.bundle.min.js"></script>
     <script src="./../js/libs/font-awesome.min.js"></script>
     <script src="./../js/main.js"></script>
