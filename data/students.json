@@ -5,7 +5,7 @@
       "students": [
         {
           "name": "John Doe",
-          "image": "mohamed emad.png",
+          "image": "",
           "class": "Math",
           "classRank": "1st",
           "nationalRank": "5th",
@@ -129,8 +129,8 @@
       "year": 2023,
       "students": [
         {
-          "name": "Mohamed Emad Soliman",
-          "image": "mohamed emad.png",
+          "name": "Emily Vans",
+          "image": "",
           "class": "Medical",
           "classRank": "1st",
           "nationalRank": "1st",
