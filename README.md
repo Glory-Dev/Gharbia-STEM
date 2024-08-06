@@ -5,11 +5,12 @@
 - [x] Footer component
 - [x] Home Page
 - [x] About
-  - [x] Main Page (Staff Section)
+  - [x] Main Page
   - [x] Virtual Tour
   - [x] Faculty & Staff
   - [x] Dorm
   - [x] Facilities
+  - [ ] Content
 - [x] ECs
   - [x] Main Page
   - [x] Clubs & Teams
