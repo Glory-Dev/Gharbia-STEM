@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
-  fetch("http://127.0.0.1:5501/data/students.json")
+  // fetch("http://127.0.0.1:5501/data/students.json")
+  fetch("../../data/students.json")
     .then((response) => response.json())
     .then((data) => {
       const container = document.getElementById("alumniContainer");

@@ -16,21 +16,21 @@
         },
         {
           "name": "Adham Khater",
-          "image": "avatar.jpg",
+          "image": "adham-khater.jpg",
           "graduationYear": "2025",
           "cohort": "Summer 2024",
           "financialAid": "Full Financial Aid"
         },
         {
           "name": "Ammar Yasser",
-          "image": "avatar.jpg",
+          "image": "ammar-yasser.jpeg",
           "graduationYear": "2025",
           "cohort": "Summer 2024",
           "financialAid": "Full Financial Aid"
         },
         {
           "name": "Ahmed Kamel",
-          "image": "avatar.jpg",
+          "image": "ahmed-kamel.jpg",
           "graduationYear": "2023",
           "cohort": "Summer 2022",
           "financialAid": "Full Financial Aid"
@@ -46,16 +46,23 @@
       "students": [
         {
           "name": "Youanes Maher",
-          "image": "avatar.jpg",
+          "image": "youanes-maher.jpg",
           "graduationYear": "2025",
           "cohort": "",
           "financialAid": "Full Financial Aid"
         },
         {
           "name": "Basel Ezz",
-          "image": "avatar.jpg",
+          "image": "basel-ezz.jpg",
           "graduationYear": "2024",
           "cohort": "",
+          "financialAid": "Full Financial Aid"
+        },
+        {
+          "name": "Mohamed Soliman",
+          "image": "mohamed-emad.png",
+          "graduationYear": "2023",
+          "cohort": "Summer 2022",
           "financialAid": "Full Financial Aid"
         }
       ]
@@ -69,14 +76,14 @@
       "students": [
         {
           "name": "Yassin Bassem",
-          "image": "avatar.jpg",
+          "image": "yassin-bassem.jpg",
           "graduationYear": "2025",
           "cohort": "Summer 2026",
           "financialAid": "Partial Financial Aid"
         },
         {
           "name": "Darin Elbana",
-          "image": "avatar.jpg",
+          "image": "",
           "graduationYear": "2026",
           "cohort": "Fall 2024",
           "financialAid": "Full Financial Aid"
@@ -93,7 +100,7 @@
       "students": [
         {
           "name": "Yassin Bassem",
-          "image": "avatar.jpg",
+          "image": "yassin-bassem.jpg",
           "graduationYear": "2025",
           "cohort": "Summer 2026",
           "financialAid": "Partial Financial Aid"
@@ -110,7 +117,7 @@
       "students": [
         {
           "name": "Ahmed Kamel",
-          "image": "avatar.jpg",
+          "image": "ahmed-kamel.jpg",
           "graduationYear": "2023",
           "cohort": "Summer 2022",
           "financialAid": "Full Financial Aid"
@@ -127,21 +134,21 @@
       "students": [
         {
           "name": "Amjad Mounir",
-          "image": "avatar.jpg",
+          "image": "",
           "graduationYear": "2025",
           "cohort": "Summer 2022",
           "financialAid": ""
         },
         {
           "name": "Basel Ezz",
-          "image": "avatar.jpg",
+          "image": "basel-ezz.jpg",
           "graduationYear": "2024",
           "cohort": "Summer 2022",
           "financialAid": ""
         },
         {
           "name": "Kareem Morgan",
-          "image": "avatar.jpg",
+          "image": "karim-morgan.jpg",
           "graduationYear": "2024",
           "cohort": "Summer 2022",
           "financialAid": ""
@@ -158,14 +165,14 @@
       "students": [
         {
           "name": "Yassin Bassem",
-          "image": "avatar.jpg",
+          "image": "yassin-bassem.jpg",
           "graduationYear": "2025",
           "cohort": "Summer 2024",
           "financialAid": "Full Financial Aid"
         },
         {
           "name": "Reem Nabil",
-          "image": "avatar.jpg",
+          "image": "",
           "graduationYear": "2025",
           "cohort": "Summer 2022",
           "financialAid": "Full Financial Aid"
@@ -182,14 +189,14 @@
       "students": [
         {
           "name": "Youssef Dabous",
-          "image": "avatar.jpg",
+          "image": "yousef-dabous.jpg",
           "graduationYear": "2023",
           "cohort": "Summer 2022",
           "financialAid": ""
         },
         {
           "name": "Yassin Bassem",
-          "image": "avatar.jpg",
+          "image": "yassin-bassem.jpg",
           "graduationYear": "2025",
           "cohort": "Summer 2024",
           "financialAid": ""
@@ -197,49 +204,49 @@
         ,
         {
           "name": "Karim Morgan",
-          "image": "avatar.jpg",
+          "image": "karim-morgan.jpg",
           "graduationYear": "2024",
           "cohort": "Summer 2023",
           "financialAid": ""
         },
         {
           "name": "Adham Abotarboush",
-          "image": "avatar.jpg",
+          "image": "adham-mohamed.jpg",
           "graduationYear": "2024",
           "cohort": "Summer 2023",
           "financialAid": ""
         },
         {
           "name": "Mahmoud Elghazaly",
-          "image": "avatar.jpg",
+          "image": "mahmoud-elghazaly.png",
           "graduationYear": "2025",
           "cohort": "Summer 2024",
           "financialAid": ""
         },
         {
           "name": "Ahmed Abdelkader",
-          "image": "avatar.jpg",
+          "image": "ahmed-abdelkader.jpeg",
           "graduationYear": "2025",
           "cohort": "Summer 2024",
           "financialAid": ""
         },
         {
           "name": "Ahmed Guoda",
-          "image": "avatar.jpg",
+          "image": "ahmed-guoda.jpg",
           "graduationYear": "2023",
           "cohort": "Summer 2022",
           "financialAid": ""
         },
         {
           "name": "Yousef Algharably",
-          "image": "avatar.jpg",
+          "image": "youssef-elgharably.jpeg",
           "graduationYear": "2022",
           "cohort": "Summer 2021",
           "financialAid": ""
         },
         {
           "name": "Ahmed Walid",
-          "image": "avatar.jpg",
+          "image": "ahmed-walid.jpg",
           "graduationYear": "2023",
           "cohort": "Summer 2022",
           "financialAid": ""
