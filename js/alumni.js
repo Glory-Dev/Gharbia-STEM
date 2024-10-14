@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-  fetch("http://127.0.0.1:5500/data/students.json")
+  fetch("http://127.0.0.1:5501/data/students.json")
     .then((response) => response.json())
     .then((data) => {
       const container = document.getElementById("alumniContainer");
@@ -148,7 +148,7 @@ function generateAlumni(container, batches) {
       financialAid.className = "card-text aid mb-0";
       financialAid.textContent = `Financial Aid: ${student.university.financialAid}`;
 
-      backCardBody.appendChild(universityName);
+      // backCardBody.appendChild(universityName);
       backCardBody.appendChild(classYear);
       backCardBody.appendChild(major);
       backCardBody.appendChild(financialAid);

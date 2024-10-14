@@ -1,3 +1,10 @@
+# Info
+
+- Demo: https://glory-dev.github.io/Gharbia-STEM/
+
+- Git repo: https://www.figma.com/design/8NnSHgUPk5oDZLyrKiV3Tu/Gharbiya-STEM-School-Website?node-id=0-1
+
+
 # Gharbia-STEM
 
 - [x] Welcome Page

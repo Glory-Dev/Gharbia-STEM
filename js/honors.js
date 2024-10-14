@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-  fetch("http://127.0.0.1:5500/data/competitions.json")
+  fetch("http://127.0.0.1:5500/data/comwpetitions.json")
     // fetch("../../data/competitions.json")
     .then((response) => response.json())
     .then((data) => {

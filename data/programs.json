@@ -4,22 +4,36 @@
       "name": "Pioneer",
       "logo": "pioneer.jpg",
       "organization": "Oberlin College",
-      "organizationLogo": "",
-      "description": "",
+      "organizationLogo": "oberlin.svg",
+      "description": "the only fully-accredited online research program for high school students",
       "students": [
         {
-          "name": "John Doe",
-          "image": "avatar.jpg",
+          "name": "Islam Shaaban",
+          "image": "islam-shaaban.jpg",
           "graduationYear": "2025",
-          "cohort": "Summer 2026",
+          "cohort": "Summer 2024",
           "financialAid": "Full Financial Aid"
         },
         {
-          "name": "Jane Smith",
+          "name": "Adham Khater",
           "image": "avatar.jpg",
-          "graduationYear": "2024",
-          "cohort": "Fall 2026",
-          "financialAid": "Partial Financial Aid"
+          "graduationYear": "2025",
+          "cohort": "Summer 2024",
+          "financialAid": "Full Financial Aid"
+        },
+        {
+          "name": "Ammar Yasser",
+          "image": "avatar.jpg",
+          "graduationYear": "2025",
+          "cohort": "Summer 2024",
+          "financialAid": "Full Financial Aid"
+        },
+        {
+          "name": "Ahmed Kamel",
+          "image": "avatar.jpg",
+          "graduationYear": "2023",
+          "cohort": "Summer 2022",
+          "financialAid": "Full Financial Aid"
         }
       ]
     },
@@ -31,41 +45,58 @@
       "description": "LaunchX brings together high school entrepreneurs with the resources and network to start real companies.",
       "students": [
         {
-          "name": "Alice Johnson",
+          "name": "Youanes Maher",
           "image": "avatar.jpg",
           "graduationYear": "2025",
-          "cohort": "Spring 2027",
-          "financialAid": "No Financial Aid"
+          "cohort": "",
+          "financialAid": "Full Financial Aid"
         },
         {
-          "name": "Bob Brown",
+          "name": "Basel Ezz",
           "image": "avatar.jpg",
-          "graduationYear": "2023",
-          "cohort": "Winter 2026",
+          "graduationYear": "2024",
+          "cohort": "",
           "financialAid": "Full Financial Aid"
         }
       ]
     },
     {
-      "name": "Lumiere",
+      "name": "Lumiere Research Program",
       "logo": "lumiere.png",
-      "organization": "Harvard & Oxford",
+      "organization": "Harvard & Oxford Graduates",
       "organizationLogo": "",
       "description": "Lumiere provides a platform for high school students to conduct research under the guidance of expert mentors.",
       "students": [
         {
-          "name": "Charlie Green",
+          "name": "Yassin Bassem",
           "image": "avatar.jpg",
           "graduationYear": "2025",
           "cohort": "Summer 2026",
           "financialAid": "Partial Financial Aid"
         },
         {
-          "name": "Dana White",
+          "name": "Darin Elbana",
           "image": "avatar.jpg",
-          "graduationYear": "2024",
-          "cohort": "Fall 2026",
-          "financialAid": "No Financial Aid"
+          "graduationYear": "2026",
+          "cohort": "Fall 2024",
+          "financialAid": "Full Financial Aid"
+        }
+      ]
+    },
+    {
+      "name": "Indigo Research Program",
+      "shorthand": "IRIS",
+      "logo": "indigo.png",
+      "organization": "Harvard Graduates",
+      "organizationLogo": "",
+      "description": "a group of scholars and educators brought together by the common goal of making research accessible to all.",
+      "students": [
+        {
+          "name": "Yassin Bassem",
+          "image": "avatar.jpg",
+          "graduationYear": "2025",
+          "cohort": "Summer 2026",
+          "financialAid": "Partial Financial Aid"
         }
       ]
     },
@@ -78,18 +109,11 @@
       "description": "PROMYS is a challenging program designed to encourage ambitious high school students to explore the creative world of mathematics.",
       "students": [
         {
-          "name": "Eve Black",
+          "name": "Ahmed Kamel",
           "image": "avatar.jpg",
           "graduationYear": "2023",
-          "cohort": "Spring 2026",
+          "cohort": "Summer 2022",
           "financialAid": "Full Financial Aid"
-        },
-        {
-          "name": "Frank White",
-          "image": "avatar.jpg",
-          "graduationYear": "2024",
-          "cohort": "Winter 2027",
-          "financialAid": "Partial Financial Aid"
         }
       ]
     },
@@ -102,42 +126,25 @@
       "description": "YSJ offers a platform for young scientists to publish their research and engage with the scientific community.",
       "students": [
         {
-          "name": "Grace Adams",
+          "name": "Amjad Mounir",
           "image": "avatar.jpg",
           "graduationYear": "2025",
-          "cohort": "Spring 2027",
-          "financialAid": "No Financial Aid"
+          "cohort": "Summer 2022",
+          "financialAid": ""
         },
         {
-          "name": "Henry Brown",
-          "image": "avatar.jpg",
-          "graduationYear": "2023",
-          "cohort": "Winter 2026",
-          "financialAid": "Full Financial Aid"
-        }
-      ]
-    },
-    {
-      "name": "Yale Young Global Scholar",
-      "shorthand": "yygs",
-      "logo": "yygs.jpg",
-      "organization": "Yale University",
-      "organizationLogo": "",
-      "description": "YYAS is an intensive academic and enrichment program designed for African secondary school students planning to pursue tertiary education and make meaningful contributions as young leaders.",
-      "students": [
-        {
-          "name": "Ivy Green",
-          "image": "avatar.jpg",
-          "graduationYear": "2025",
-          "cohort": "Summer 2026",
-          "financialAid": "Partial Financial Aid"
-        },
-        {
-          "name": "Jack Black",
+          "name": "Basel Ezz",
           "image": "avatar.jpg",
           "graduationYear": "2024",
-          "cohort": "Fall 2026",
-          "financialAid": "No Financial Aid"
+          "cohort": "Summer 2022",
+          "financialAid": ""
+        },
+        {
+          "name": "Kareem Morgan",
+          "image": "avatar.jpg",
+          "graduationYear": "2024",
+          "cohort": "Summer 2022",
+          "financialAid": ""
         }
       ]
     },
@@ -150,22 +157,22 @@
       "description": "YYAS is an intensive academic and enrichment program designed for African secondary school students planning to pursue tertiary education and make meaningful contributions as young leaders.",
       "students": [
         {
-          "name": "Ivy Green",
+          "name": "Yassin Bassem",
           "image": "avatar.jpg",
           "graduationYear": "2025",
-          "cohort": "Summer 2026",
-          "financialAid": "Partial Financial Aid"
+          "cohort": "Summer 2024",
+          "financialAid": "Full Financial Aid"
         },
         {
-          "name": "Jack Black",
+          "name": "Reem Nabil",
           "image": "avatar.jpg",
-          "graduationYear": "2024",
-          "cohort": "Fall 2026",
-          "financialAid": "No Financial Aid"
+          "graduationYear": "2025",
+          "cohort": "Summer 2022",
+          "financialAid": "Full Financial Aid"
         }
       ]
     },
-    {
+{
       "name": "Competitive College Club",
       "shorthand": "ccc",
       "logo": "ccc.jpg",
@@ -174,18 +181,68 @@
       "description": "CCC helps high-achieving students navigate the college application process and gain admission to highly competitive colleges and universities.",
       "students": [
         {
-          "name": "Kate White",
+          "name": "Youssef Dabous",
           "image": "avatar.jpg",
           "graduationYear": "2023",
-          "cohort": "Spring 2026",
-          "financialAid": "Full Financial Aid"
+          "cohort": "Summer 2022",
+          "financialAid": ""
         },
         {
-          "name": "Leo Brown",
+          "name": "Yassin Bassem",
+          "image": "avatar.jpg",
+          "graduationYear": "2025",
+          "cohort": "Summer 2024",
+          "financialAid": ""
+        }
+        ,
+        {
+          "name": "Karim Morgan",
           "image": "avatar.jpg",
           "graduationYear": "2024",
-          "cohort": "Winter 2027",
-          "financialAid": "Partial Financial Aid"
+          "cohort": "Summer 2023",
+          "financialAid": ""
+        },
+        {
+          "name": "Adham Abotarboush",
+          "image": "avatar.jpg",
+          "graduationYear": "2024",
+          "cohort": "Summer 2023",
+          "financialAid": ""
+        },
+        {
+          "name": "Mahmoud Elghazaly",
+          "image": "avatar.jpg",
+          "graduationYear": "2025",
+          "cohort": "Summer 2024",
+          "financialAid": ""
+        },
+        {
+          "name": "Ahmed Abdelkader",
+          "image": "avatar.jpg",
+          "graduationYear": "2025",
+          "cohort": "Summer 2024",
+          "financialAid": ""
+        },
+        {
+          "name": "Ahmed Guoda",
+          "image": "avatar.jpg",
+          "graduationYear": "2023",
+          "cohort": "Summer 2022",
+          "financialAid": ""
+        },
+        {
+          "name": "Yousef Algharably",
+          "image": "avatar.jpg",
+          "graduationYear": "2022",
+          "cohort": "Summer 2021",
+          "financialAid": ""
+        },
+        {
+          "name": "Ahmed Walid",
+          "image": "avatar.jpg",
+          "graduationYear": "2023",
+          "cohort": "Summer 2022",
+          "financialAid": ""
         }
       ]
     }

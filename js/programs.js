@@ -94,7 +94,8 @@ function generateProgramSections(container, programs) {
       studentCard.className = "card";
 
       const studentImg = document.createElement("img");
-      studentImg.src = student.image;
+      studentImg.src = `./../../images/students/${student.image}`;
+
       studentImg.className = "card-img-top";
       studentImg.alt = student.name;
 
