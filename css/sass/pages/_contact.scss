@@ -1,4 +1,9 @@
 .contact-content {
+
+  img[src=""] {
+    display: none;
+  }
+
   .maps {
     .map-container {
       position: relative;
@@ -45,6 +50,8 @@
 
   .reach {
     @media (min-width: 1400px) {
+      margin-bottom: 5rem;
+
       .col {
         .card {
           position: relative;

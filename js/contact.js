@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-  fetch("http://127.0.0.1:5500/data/data.json")
+  fetch("http://127.0.0.1:5501/data/data.json")
     .then((response) => response.json())
     .then((data) => {
       const container = document.getElementById("contactReachOut");
@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 document.addEventListener("DOMContentLoaded", function () {
-  fetch("http://127.0.0.1:5500/data/data.json")
+  fetch("http://127.0.0.1:5501/data/data.json")
     .then((response) => response.json())
     .then((data) => {
       const container = document.getElementById("contactCouncil");
@@ -35,7 +35,7 @@ function generateCards(container, committee) {
     card.className = "card mb-3 border-0 bg-transparent";
 
     const img = document.createElement("img");
-    img.src = `./../images/staff/${member.image}`;
+    img.src = img.src ? `./../images/staff/${member.image}` : "";
     img.className = "img-fluid";
     img.alt = member.name;
 
@@ -62,7 +62,7 @@ function generateCards(container, committee) {
     cardBody.appendChild(cardTitle);
     cardBody.appendChild(cardText);
     cardBody.appendChild(phoneText);
-    cardBody.appendChild(emailText);
+    // cardBody.appendChild(emailText);
 
     card.appendChild(img);
     card.appendChild(cardBody);

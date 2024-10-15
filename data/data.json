@@ -1,30 +1,69 @@
 {
   "members": [
     {
-      "name": "John Doe",
-      "profession": "Manager",
-      "image": "avatar.jpg",
-      "phone": "555-1234",
-      "email": "john.doe@example.com",
+      "name": "Ahmed Emara",
+      "profession": "School Principle",
+      "image": "",
+      "phone": "+20 111 139 4160",
+      "email": "gharbiasch@stemgharbiya.moe.edu.eg",
       "socialMedia": {
-        "linkedin": "https://linkedin.com/in/johndoe",
-        "facebook": "https://facebook.com/johndoe",
-        "twitter": "https://twitter.com/johndoe"
+        "linkedin": "",
+        "facebook": "",
+        "twitter": ""
       },
-      "committees": ["management", "financial"]
+      "committees": ["management"]
     },
     {
-      "name": "Jane Smith",
-      "profession": "Assistant Manager",
-      "image": "avatar.jpg",
-      "phone": "555-5678",
-      "email": "jane.smith@example.com",
+      "name": "Eman Mansour",
+      "profession": "School Deputy",
+      "image": "",
+      "phone": "+20 122 241 9034",
+      "email": "gharbdepty@stemgharibya.moe.edu.eg",
       "socialMedia": {
-        "linkedin": "https://linkedin.com/in/janesmith",
-        "facebook": "https://facebook.com/janesmith",
-        "twitter": "https://twitter.com/janesmith"
+        "linkedin": "",
+        "facebook": "",
+        "twitter": ""
       },
-      "committees": ["management", "council"]
+      "committees": ["management"]
+    },
+    {
+      "name": "Ereny Shehatah",
+      "profession": "Computer Science Teacher & Counselor",
+      "image": "",
+      "phone": "+20 122 881 6171",
+      "email": "ereny.awad@stemgharbiya.moe.edu.eg",
+      "socialMedia": {
+        "linkedin": "",
+        "facebook": "",
+        "twitter": ""
+      },
+      "committees": ["computer science", "council"]
+    },
+    {
+      "name": "Olfat Boles",
+      "profession": "Chemistry Teacher & Counselor",
+      "image": "",
+      "phone": "+20 100 365 9204",
+      "email": "o.boles@stemgharbiya.moe.edu.eg",
+      "socialMedia": {
+        "linkedin": "",
+        "facebook": "",
+        "twitter": ""
+      },
+      "committees": ["chemistry", "council"]
+    },
+    {
+      "name": "Azza Ramadan",
+      "profession": "English Teacher & Counselor",
+      "image": "",
+      "phone": "+20 115 054 2486",
+      "email": "azza.ramadan@stemgharbiya.moe.edu.eg",
+      "socialMedia": {
+        "linkedin": "",
+        "facebook": "",
+        "twitter": ""
+      },
+      "committees": ["english", "council"]
     },
     {
       "name": "Alice Johnson",
@@ -50,7 +89,7 @@
         "facebook": "https://facebook.com/bobbrown",
         "twitter": "https://twitter.com/bobbrown"
       },
-      "committees": ["financial", "council"]
+      "committees": ["financial"]
     },
     {
       "name": "Charlie Davis",
@@ -63,7 +102,7 @@
         "facebook": "https://facebook.com/charliedavis",
         "twitter": "https://twitter.com/charliedavis"
       },
-      "committees": ["dorm", "council"]
+      "committees": ["dorm"]
     },
     {
       "name": "Emily Wilson",
